@@ -1,0 +1,5 @@
+TEXT_PROCESSING = '/text-processing'
+INDEXING = '/indexing'
+MATCHING = '/matching'
+RANKING = '/ranking'
+TEST = '/test'
