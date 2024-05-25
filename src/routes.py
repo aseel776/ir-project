@@ -1,8 +1,8 @@
-from fastapi import FastAPI, Body, APIRouter
-from src.services.text_processing import process_text
-from src.services.indexing import create_index
-from src.services.matching import matach, rank
-import src.endpoints as endpoints
+from fastapi import Body, APIRouter
+from services.text_processing import process_text
+from services.indexing import create_index
+from services.matching import matach, rank
+import endpoints
 
 router = APIRouter()
 
@@ -10,6 +10,7 @@ router = APIRouter()
 async def text_processing_endpoint(data: dict = Body()):
     print('tp endpoint')
     text = data.get('text')
+    print(f'{text} processed from tp endpoint')
     return process_text(text)
 
 @router.post(endpoints.INDEXING)
