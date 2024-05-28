@@ -20,7 +20,8 @@ async def text_processing_endpoint(body: dict = Body()):
     print('tp endpoint')
     data = body.get('text')
     processor = TextProcessor()
-    processor.process(text= data)
+    processed_text = processor.process(text= data)
+    return {'processed_text': processed_text}
 
 @router.post(endpoints.INDEXING)
 async def indexing_endpoint(data: dict):
