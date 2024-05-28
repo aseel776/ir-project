@@ -1,13 +1,32 @@
 import requests
 import endpoints
-import ir_datasets
+import datasets
+from itertools import islice
 
 baseUrl = 'http://localhost:8000'
 
-request_data = {
-    # 'text': 'Hi! This is a test text. its purpose is to check functions.',
-    # 'text': 'test123. test. 245. hi, gi24',
-    # 'text': 'Let''s meet for coffee at 2:00 p.m. afterwards we can go for a run!'
-    'text': 'let''s go running afterwards. we are happy to join your class'
+# request_body = {
+#     'text': 'Hi! This is a test text. its purpose is to check functions.',
+# }
+# response = requests.post(f"{baseUrl}{endpoints.TEXT_PROCESSING}", json = request_body)
+
+# -------------------------
+
+docs = datasets.dataset_test_1.docs_iter()
+corpus = list(islice(docs, 10))
+serialized_corpus = []
+for doc in corpus:
+    entry = {
+        'id': doc.doc_id,
+        'text': doc.text,
+    }
+    serialized_corpus.append(entry)
+request_body = {
+    'corpus': serialized_corpus
 }
-response = requests.post(f"{baseUrl}{endpoints.TEXT_PROCESSING}", json = request_data)
+response = requests.post(f'{baseUrl}{endpoints.PRE_PROCESSING}', json = request_body)
+if response.status_code == 200:
+    data = response.json().get('processed_corpus')
+    print(data)
+else:
+    print(response.status_code)

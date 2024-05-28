@@ -6,56 +6,43 @@ from string import punctuation
 
 class TextProcessor:
 
-    def __init__(self):
-        print('init')
-
-    def start_processing(self, text: str):
-        print('start')
+    def process(self, text: str):
         # first tolower
         text = text.lower()
-        print(text)
         # then remove punctuations
         text = self.remove_punctuation(text)
-        print(text)
         # tokenize
         tokens = self.tokenize(text)
-        print(tokens)
         # remove stop words from tokens
         filtered_tokens = self.remove_stopwords(tokens)
-        print(filtered_tokens)
         # stemming
-        stemmed_tokens = self.stem(filtered_tokens)
-        print(stemmed_tokens)
+        # stemmed_tokens = self.stem(filtered_tokens)
+        # NOTE!!! when uncommenting stemming remember to comment lemmatizing and vice versa
         # lemmatizing
         lemmatized_tokens = self.lemmatize(filtered_tokens)
-        print(lemmatized_tokens)
+        return lemmatized_tokens
     
     def remove_punctuation(self, text: str):
-        print('remove punctuation')
         table = str.maketrans('', '', punctuation)
         filtered_text = text.translate(table)
         return filtered_text
     
     def tokenize(self, text: str):
-        print('tokenize')
         return word_tokenize(text)
     
     def remove_stopwords(self, words: list[str]):
-        print('remove stopwords')
         stop_words = stopwords.words('english')
         filtered_text = [word for word in words if word not in stop_words]
         return filtered_text
 
     def stem(self, tokens: list[str]):
-        print('stemming')
-        # import it from nltk.stem
+        # NOTE!!! import it from nltk.stem
         # stemmer = PorterStemmer()
         stemmer = LancasterStemmer()
         stemmed_words = [stemmer.stem(token) for token in tokens]
         return stemmed_words
     
     def lemmatize(self, tokens: list[str]):
-        print('lemmatizing')
         # get part-of-speech tags first
         pos_tags = pos_tag(tokens)
         lemmatizer = WordNetLemmatizer()
