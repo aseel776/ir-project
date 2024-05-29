@@ -3,6 +3,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import LancasterStemmer, WordNetLemmatizer
 from nltk import pos_tag
 from string import punctuation
+from utils.converting import convert_to_str
 
 class TextProcessor:
 
@@ -21,7 +22,8 @@ class TextProcessor:
         # NOTE!!! when uncommenting stemming remember to comment lemmatizing and vice versa
         # lemmatizing
         lemmatized_tokens = self.lemmatize(filtered_tokens)
-        return lemmatized_tokens
+        # get them back into one string
+        return convert_to_str(lemmatized_tokens)
     
     def remove_punctuation(self, text: str):
         table = str.maketrans('', '', punctuation)

@@ -1,74 +1,128 @@
 {
-    "great": [
-        "4983",
-        "54440"
-    ],
-    "mean": [
-        "4983",
-        "70115"
-    ],
-    "closer": [
+    "magnetic": [
         "4983"
     ],
-    "fullterm": [
+    "diffusionweighted": [
         "4983"
     ],
-    "indicate": [
-        "4983",
-        "5836",
-        "33370"
-    ],
-    "microstructural": [
+    "delineate": [
         "4983"
     ],
-    "apply": [
-        "4983",
-        "54440"
-    ],
-    "show": [
-        "4983",
-        "7912"
-    ],
-    "fiber": [
+    "gestation": [
         "4983"
     ],
-    "prematurity": [
-        "4983"
-    ],
-    "absolute": [
+    "internal": [
         "4983"
     ],
     "architecture": [
         "4983"
     ],
-    "lower": [
+    "image": [
+        "4983"
+    ],
+    "central": [
+        "4983",
+        "19238"
+    ],
+    "brain": [
+        "4983"
+    ],
+    "birth": [
         "4983"
     ],
     "limb": [
-        "4983"
-    ],
-    "alteration": [
-        "4983"
-    ],
-    "matter": [
-        "4983"
-    ],
-    "relative": [
-        "4983",
-        "33370",
-        "54440"
-    ],
-    "apparent": [
-        "4983"
-    ],
-    "n": [
         "4983"
     ],
     "early": [
         "4983",
         "5836"
     ],
+    "mri": [
+        "4983"
+    ],
+    "wk": [
+        "4983"
+    ],
+    "area": [
+        "4983"
+    ],
+    "apparent": [
+        "4983"
+    ],
+    "fiber": [
+        "4983"
+    ],
+    "micromms": [
+        "4983"
+    ],
+    "value": [
+        "4983",
+        "70115"
+    ],
+    "n": [
+        "4983"
+    ],
+    "functional": [
+        "4983",
+        "5836",
+        "33370"
+    ],
+    "effect": [
+        "4983",
+        "33370",
+        "54440"
+    ],
+    "great": [
+        "4983",
+        "54440"
+    ],
+    "absolute": [
+        "4983"
+    ],
+    "apply": [
+        "4983",
+        "54440"
+    ],
+    "affect": [
+        "4983"
+    ],
+    "living": [
+        "4983"
+    ],
+    "time": [
+        "4983"
+    ],
+    "coefficient": [
+        "4983"
+    ],
+    "insight": [
+        "4983"
+    ],
+    "cerebral": [
+        "4983"
+    ],
+    "measure": [
+        "4983",
+        "54440",
+        "70115",
+        "70490"
+    ],
     "anisotropy": [
+        "4983"
+    ],
+    "similar": [
+        "4983",
+        "18670",
+        "33370",
+        "54440"
+    ],
+    "data": [
+        "4983",
+        "18670",
+        "33370",
+        "54440"
+    ],
+    "fullterm": [
         "4983"
     ],
     "provide": [
@@ -77,86 +131,14 @@
         "19238",
         "54440"
     ],
-    "infant": [
-        "4983"
-    ],
-    "difference": [
+    "mean": [
         "4983",
         "70115"
     ],
-    "tensor": [
+    "threedimensional": [
         "4983"
     ],
-    "mri": [
-        "4983"
-    ],
-    "nonmyelinated": [
-        "4983"
-    ],
-    "delineate": [
-        "4983"
-    ],
-    "assessment": [
-        "4983",
-        "18670"
-    ],
-    "cortical": [
-        "4983"
-    ],
-    "disability": [
-        "4983"
-    ],
-    "living": [
-        "4983"
-    ],
-    "resonance": [
-        "4983"
-    ],
-    "brain": [
-        "4983"
-    ],
-    "p": [
-        "4983"
-    ],
-    "human": [
-        "4983",
-        "18670",
-        "19238",
-        "33370",
-        "36474"
-    ],
-    "central": [
-        "4983",
-        "19238"
-    ],
-    "organization": [
-        "4983"
-    ],
-    "white": [
-        "4983"
-    ],
-    "line": [
-        "4983",
-        "19238"
-    ],
-    "functional": [
-        "4983",
-        "5836",
-        "33370"
-    ],
-    "micromms": [
-        "4983"
-    ],
-    "develop": [
-        "4983"
-    ],
-    "internal": [
-        "4983"
-    ],
-    "marked": [
-        "4983"
-    ],
-    "image": [
+    "diffusion": [
         "4983"
     ],
     "study": [
@@ -165,7 +147,95 @@
         "18670",
         "54440"
     ],
-    "wk": [
+    "human": [
+        "4983",
+        "18670",
+        "19238",
+        "33370",
+        "36474"
+    ],
+    "visible": [
+        "4983"
+    ],
+    "development": [
+        "4983",
+        "5836"
+    ],
+    "assess": [
+        "4983",
+        "54440"
+    ],
+    "line": [
+        "4983",
+        "19238"
+    ],
+    "result": [
+        "4983",
+        "33370",
+        "54440"
+    ],
+    "closer": [
+        "4983"
+    ],
+    "nonmyelinated": [
+        "4983"
+    ],
+    "cortical": [
+        "4983"
+    ],
+    "indicate": [
+        "4983",
+        "5836",
+        "33370"
+    ],
+    "decrease": [
+        "4983",
+        "33370"
+    ],
+    "p": [
+        "4983"
+    ],
+    "matter": [
+        "4983"
+    ],
+    "compare": [
+        "4983",
+        "70115"
+    ],
+    "infant": [
+        "4983"
+    ],
+    "calculate": [
+        "4983",
+        "54440"
+    ],
+    "callosum": [
+        "4983"
+    ],
+    "tensor": [
+        "4983"
+    ],
+    "develop": [
+        "4983"
+    ],
+    "marked": [
+        "4983"
+    ],
+    "assessment": [
+        "4983",
+        "18670"
+    ],
+    "preterm": [
+        "4983"
+    ],
+    "posterior": [
+        "4983",
+        "70115"
+    ],
+    "capsule": [
+        "4983"
+    ],
+    "corpus": [
         "4983"
     ],
     "sequence": [
@@ -173,41 +243,27 @@
         "18670",
         "54440"
     ],
-    "threedimensional": [
+    "white": [
         "4983"
     ],
-    "time": [
+    "disability": [
         "4983"
     ],
-    "diffusionweighted": [
-        "4983"
-    ],
-    "posterior": [
+    "difference": [
         "4983",
         "70115"
     ],
-    "decrease": [
+    "term": [
         "4983",
-        "33370"
+        "7912"
     ],
-    "callosum": [
+    "scan": [
         "4983"
     ],
-    "birth": [
+    "prematurity": [
         "4983"
     ],
-    "result": [
-        "4983",
-        "33370",
-        "54440"
-    ],
-    "second": [
-        "4983",
-        "19238",
-        "36474",
-        "54440"
-    ],
-    "coefficient": [
+    "organization": [
         "4983"
     ],
     "analysis": [
@@ -218,187 +274,84 @@
         "54440",
         "70115"
     ],
-    "term": [
-        "4983",
-        "7912"
-    ],
-    "visible": [
-        "4983"
-    ],
-    "quantitative": [
-        "4983"
-    ],
-    "effect": [
-        "4983",
-        "33370",
-        "54440"
-    ],
-    "value": [
-        "4983",
-        "70115"
-    ],
-    "versus": [
-        "4983"
-    ],
     "high": [
         "4983",
         "7912",
         "54440"
     ],
-    "magnetic": [
+    "versus": [
         "4983"
     ],
-    "capsule": [
+    "relative": [
+        "4983",
+        "33370",
+        "54440"
+    ],
+    "microstructural": [
         "4983"
     ],
-    "cerebral": [
-        "4983"
+    "second": [
+        "4983",
+        "19238",
+        "36474",
+        "54440"
+    ],
+    "show": [
+        "4983",
+        "7912"
     ],
     "water": [
         "4983"
     ],
-    "scan": [
+    "alteration": [
         "4983"
     ],
-    "gestation": [
-        "4983"
-    ],
-    "compare": [
-        "4983",
-        "70115"
-    ],
-    "affect": [
-        "4983"
-    ],
-    "insight": [
-        "4983"
-    ],
-    "assess": [
-        "4983",
-        "54440"
-    ],
-    "calculate": [
-        "4983",
-        "54440"
-    ],
-    "development": [
-        "4983",
-        "5836"
-    ],
-    "preterm": [
-        "4983"
-    ],
-    "area": [
-        "4983"
-    ],
-    "similar": [
-        "4983",
-        "18670",
-        "33370",
-        "54440"
-    ],
-    "measure": [
-        "4983",
-        "54440",
-        "70115",
-        "70490"
-    ],
-    "corpus": [
-        "4983"
-    ],
-    "data": [
-        "4983",
-        "18670",
-        "33370",
-        "54440"
-    ],
-    "diffusion": [
+    "quantitative": [
         "4983"
     ],
     "toward": [
         "4983"
     ],
-    "biological": [
-        "5836",
-        "18670"
+    "lower": [
+        "4983"
     ],
-    "myeloidderived": [
-        "5836"
-    ],
-    "pathogenetic": [
-        "5836"
-    ],
-    "molecule": [
-        "5836"
-    ],
-    "interruption": [
-        "5836"
-    ],
-    "ligandreceptor": [
-        "5836"
-    ],
-    "syndrome": [
-        "5836"
-    ],
-    "find": [
-        "5836",
-        "7912",
-        "18670"
-    ],
-    "report": [
-        "5836",
-        "18670",
-        "36474"
-    ],
-    "md": [
-        "5836"
-    ],
-    "link": [
-        "5836",
-        "19238"
-    ],
-    "primary": [
-        "5836",
-        "33370"
-    ],
-    "suppressive": [
-        "5836"
-    ],
-    "dysplasia": [
-        "5836"
-    ],
-    "active": [
-        "5836"
-    ],
-    "finding": [
-        "5836",
-        "19238"
+    "resonance": [
+        "4983"
     ],
     "play": [
         "5836",
         "18670"
     ],
-    "force": [
+    "pathway": [
+        "5836",
+        "33370"
+    ],
+    "dap": [
         "5836"
     ],
-    "alltransretinoic": [
+    "rescue": [
         "5836"
     ],
-    "hematopoiesis": [
-        "5836"
+    "feature": [
+        "5836",
+        "7912",
+        "18670"
     ],
-    "cd": [
-        "5836"
-    ],
-    "acid": [
-        "5836"
-    ],
-    "function": [
+    "protein": [
         "5836",
         "19238",
         "33370"
     ],
-    "myelodysplastic": [
+    "active": [
+        "5836"
+    ],
+    "ligandreceptor": [
+        "5836"
+    ],
+    "multilineage": [
+        "5836"
+    ],
+    "inhibition": [
         "5836"
     ],
     "cell": [
@@ -408,125 +361,40 @@
         "33370",
         "36474"
     ],
-    "distinct": [
+    "expansion": [
+        "5836"
+    ],
+    "\u2019": [
         "5836",
-        "18670",
-        "33370"
+        "70115"
     ],
-    "adaptive": [
-        "5836"
-    ],
-    "phenotype": [
-        "5836"
-    ],
-    "motif\u2013bearing": [
-        "5836"
-    ],
-    "itambearing": [
+    "driven": [
         "5836"
     ],
     "cytokine": [
         "5836"
     ],
-    "inhibition": [
-        "5836"
-    ],
-    "cancer": [
-        "5836",
-        "33370"
-    ],
-    "transfected": [
-        "5836"
-    ],
-    "sa": [
-        "5836"
-    ],
-    "display": [
-        "5836",
-        "18670",
-        "33370"
-    ],
-    "progenitor": [
-        "5836"
-    ],
-    "immature": [
-        "5836"
-    ],
-    "form": [
-        "5836"
-    ],
-    "tgf\u03b2": [
-        "5836"
-    ],
-    "autologous": [
-        "5836"
-    ],
-    "myeloid": [
-        "5836"
-    ],
-    "inflammation": [
-        "5836"
-    ],
-    "progressive": [
-        "5836"
-    ],
-    "classically": [
-        "5836"
-    ],
-    "marrow": [
-        "5836"
-    ],
-    "expansion": [
-        "5836"
-    ],
-    "activate": [
-        "5836"
-    ],
-    "immune": [
-        "5836",
-        "19238"
-    ],
-    "importantly": [
-        "5836"
-    ],
-    "multiple": [
-        "5836"
-    ],
-    "immunosuppression": [
-        "5836"
-    ],
-    "component": [
-        "5836"
-    ],
-    "interaction": [
-        "5836"
-    ],
-    "either": [
-        "5836"
-    ],
-    "proinflammatory": [
-        "5836"
-    ],
-    "accompany": [
-        "5836"
-    ],
-    "itim": [
-        "5836"
-    ],
-    "signal": [
-        "5836"
-    ],
-    "mouse": [
-        "5836",
-        "33370"
-    ],
-    "cytological": [
-        "5836"
-    ],
     "pair": [
         "5836"
     ],
-    "sacd": [
+    "function": [
+        "5836",
+        "19238",
+        "33370"
+    ],
+    "stem": [
+        "5836",
+        "33370",
+        "36474"
+    ],
+    "mdsc": [
+        "5836"
+    ],
+    "primary": [
+        "5836",
+        "33370"
+    ],
+    "inflammation": [
         "5836"
     ],
     "recruit": [
@@ -535,106 +403,198 @@
     "mds": [
         "5836"
     ],
-    "bone": [
+    "agedependent": [
         "5836"
     ],
-    "expand": [
+    "either": [
         "5836"
     ],
-    "overproduce": [
+    "patient": [
+        "5836",
+        "33370"
+    ],
+    "multiple": [
         "5836"
     ],
     "markedly": [
         "5836"
     ],
-    "ineffective": [
+    "immunoreceptor": [
         "5836"
     ],
-    "clonally": [
+    "response": [
         "5836"
     ],
-    "feature": [
-        "5836",
-        "7912",
-        "18670"
-    ],
-    "malignancy": [
+    "acid": [
         "5836"
     ],
-    "transgenic": [
-        "5836"
-    ],
-    "cytopenias": [
-        "5836"
-    ],
-    "induce": [
-        "5836"
-    ],
-    "agedependent": [
-        "5836"
-    ],
-    "share": [
-        "5836"
-    ],
-    "drive": [
-        "5836"
-    ],
-    "effector": [
-        "5836"
-    ],
-    "hematopoietic": [
-        "5836"
-    ],
-    "activation": [
-        "5836"
-    ],
-    "il": [
+    "adapter": [
         "5836"
     ],
     "apoptotic": [
         "5836",
         "33370"
     ],
-    "patient": [
-        "5836",
-        "33370"
-    ],
-    "rescue": [
+    "tgf\u03b2": [
         "5836"
     ],
-    "\u2019": [
+    "cytological": [
+        "5836"
+    ],
+    "induce": [
+        "5836"
+    ],
+    "alltransretinoic": [
+        "5836"
+    ],
+    "role": [
         "5836",
-        "70115"
+        "18670"
     ],
     "model": [
         "5836",
         "54440",
         "70115"
     ],
-    "accumulation": [
+    "secretion": [
         "5836"
     ],
-    "maturation": [
+    "transgenic": [
         "5836"
     ],
-    "motif": [
+    "treatment": [
         "5836"
     ],
-    "dap": [
+    "motif\u2013bearing": [
         "5836"
     ],
-    "pathway": [
+    "effector": [
+        "5836"
+    ],
+    "find": [
         "5836",
-        "33370"
+        "7912",
+        "18670"
     ],
-    "immunoreceptor": [
+    "link": [
+        "5836",
+        "19238"
+    ],
+    "malignancy": [
         "5836"
     ],
     "suppressor": [
         "5836",
         "33370"
     ],
-    "secretion": [
+    "cytopenias": [
+        "5836"
+    ],
+    "adaptive": [
+        "5836"
+    ],
+    "md": [
+        "5836"
+    ],
+    "marrow": [
+        "5836"
+    ],
+    "activation": [
+        "5836"
+    ],
+    "component": [
+        "5836"
+    ],
+    "hematopoietic": [
+        "5836"
+    ],
+    "display": [
+        "5836",
+        "18670",
+        "33370"
+    ],
+    "motif": [
+        "5836"
+    ],
+    "hematologic": [
+        "5836"
+    ],
+    "progressive": [
+        "5836"
+    ],
+    "immunosuppression": [
+        "5836"
+    ],
+    "suppressive": [
+        "5836"
+    ],
+    "distinct": [
+        "5836",
+        "18670",
+        "33370"
+    ],
+    "hematopoiesis": [
+        "5836"
+    ],
+    "immature": [
+        "5836"
+    ],
+    "cancer": [
+        "5836",
+        "33370"
+    ],
+    "itambearing": [
+        "5836"
+    ],
+    "accompany": [
+        "5836"
+    ],
+    "signal": [
+        "5836"
+    ],
+    "cd": [
+        "5836"
+    ],
+    "sacd": [
+        "5836"
+    ],
+    "molecule": [
+        "5836"
+    ],
+    "contributes": [
+        "5836",
+        "33370"
+    ],
+    "myelodysplastic": [
+        "5836"
+    ],
+    "classically": [
+        "5836"
+    ],
+    "share": [
+        "5836"
+    ],
+    "sa": [
+        "5836"
+    ],
+    "perturbs": [
+        "5836"
+    ],
+    "expand": [
+        "5836"
+    ],
+    "immune": [
+        "5836",
+        "19238"
+    ],
+    "accumulation": [
+        "5836"
+    ],
+    "biological": [
+        "5836",
+        "18670"
+    ],
+    "dysplasia": [
         "5836"
     ],
     "target": [
@@ -642,10 +602,92 @@
         "33370",
         "36474"
     ],
-    "treatment": [
+    "overproduce": [
         "5836"
     ],
-    "driven": [
+    "form": [
+        "5836"
+    ],
+    "itim": [
+        "5836"
+    ],
+    "syndrome": [
+        "5836"
+    ],
+    "drive": [
+        "5836"
+    ],
+    "clonally": [
+        "5836"
+    ],
+    "progenitor": [
+        "5836"
+    ],
+    "myeloidderived": [
+        "5836"
+    ],
+    "interruption": [
+        "5836"
+    ],
+    "activate": [
+        "5836"
+    ],
+    "maturation": [
+        "5836"
+    ],
+    "tyrosinebased": [
+        "5836"
+    ],
+    "importantly": [
+        "5836"
+    ],
+    "pathogenetic": [
+        "5836"
+    ],
+    "force": [
+        "5836"
+    ],
+    "proinflammatory": [
+        "5836"
+    ],
+    "potent": [
+        "5836"
+    ],
+    "transfected": [
+        "5836"
+    ],
+    "myeloid": [
+        "5836"
+    ],
+    "finding": [
+        "5836",
+        "19238"
+    ],
+    "mouse": [
+        "5836",
+        "33370"
+    ],
+    "bone": [
+        "5836"
+    ],
+    "phenotype": [
+        "5836"
+    ],
+    "ineffective": [
+        "5836"
+    ],
+    "autologous": [
+        "5836"
+    ],
+    "report": [
+        "5836",
+        "18670",
+        "36474"
+    ],
+    "il": [
+        "5836"
+    ],
+    "interaction": [
         "5836"
     ],
     "use": [
@@ -656,227 +698,17 @@
         "70115",
         "70490"
     ],
-    "potent": [
-        "5836"
-    ],
-    "hematologic": [
-        "5836"
-    ],
-    "stem": [
-        "5836",
-        "33370",
-        "36474"
-    ],
-    "protein": [
-        "5836",
-        "19238",
-        "33370"
-    ],
-    "tyrosinebased": [
-        "5836"
-    ],
-    "response": [
-        "5836"
-    ],
-    "multilineage": [
-        "5836"
-    ],
-    "contributes": [
-        "5836",
-        "33370"
-    ],
-    "role": [
-        "5836",
-        "18670"
-    ],
-    "mdsc": [
-        "5836"
-    ],
-    "adapter": [
-        "5836"
-    ],
-    "perturbs": [
-        "5836"
-    ],
-    "suggest": [
-        "7912",
-        "19238",
-        "33370",
-        "70115"
-    ],
-    "reverse": [
+    "bc": [
         "7912"
     ],
-    "element": [
-        "7912"
-    ],
-    "ability": [
-        "7912",
-        "33370"
-    ],
-    "id": [
-        "7912"
-    ],
-    "tissue": [
-        "7912",
-        "19238"
-    ],
-    "sine": [
-        "7912"
-    ],
-    "unique": [
+    "regulatory": [
         "7912",
         "18670"
-    ],
-    "transcription": [
-        "7912",
-        "19238"
-    ],
-    "focus": [
-        "7912"
-    ],
-    "selfprimed": [
-        "7912"
-    ],
-    "transcript": [
-        "7912",
-        "19238"
-    ],
-    "evolution": [
-        "7912"
-    ],
-    "appropriate": [
-        "7912"
-    ],
-    "one": [
-        "7912",
-        "19238",
-        "54440",
-        "70490"
-    ],
-    "structure": [
-        "7912",
-        "19238"
-    ],
-    "short": [
-        "7912",
-        "33370"
-    ],
-    "master": [
-        "7912"
-    ],
-    "selfpriming": [
-        "7912"
-    ],
-    "region": [
-        "7912",
-        "18670"
-    ],
-    "idrelated": [
-        "7912"
-    ],
-    "involve": [
-        "7912"
-    ],
-    "amplification": [
-        "7912",
-        "33370"
-    ],
-    "sitespecific": [
-        "7912"
-    ],
-    "observation": [
-        "7912",
-        "70115"
-    ],
-    "throughout": [
-        "7912",
-        "70115"
     ],
     "make": [
         "7912"
     ],
-    "strongly": [
-        "7912"
-    ],
-    "prime": [
-        "7912"
-    ],
     "intramolecular": [
-        "7912"
-    ],
-    "able": [
-        "7912"
-    ],
-    "consequence": [
-        "7912"
-    ],
-    "integration": [
-        "7912",
-        "18670"
-    ],
-    "least": [
-        "7912",
-        "19238"
-    ],
-    "gene": [
-        "7912",
-        "18670",
-        "19238",
-        "36474",
-        "54440"
-    ],
-    "efficient": [
-        "7912",
-        "36474"
-    ],
-    "actively": [
-        "7912"
-    ],
-    "interspersed": [
-        "7912"
-    ],
-    "step": [
-        "7912"
-    ],
-    "stability": [
-        "7912"
-    ],
-    "process": [
-        "7912",
-        "18670"
-    ],
-    "derive": [
-        "7912",
-        "70115"
-    ],
-    "may": [
-        "7912",
-        "33370"
-    ],
-    "rna": [
-        "7912",
-        "19238",
-        "33370"
-    ],
-    "single": [
-        "7912"
-    ],
-    "amplify": [
-        "7912"
-    ],
-    "genome": [
-        "7912",
-        "18670",
-        "36474"
-    ],
-    "many": [
-        "7912"
-    ],
-    "bc": [
-        "7912"
-    ],
-    "rodent": [
         "7912"
     ],
     "include": [
@@ -885,25 +717,50 @@
         "19238",
         "54440"
     ],
-    "disperse": [
+    "amplify": [
         "7912"
     ],
-    "prim": [
+    "retroposition": [
         "7912"
     ],
-    "secondary": [
+    "sitespecific": [
+        "7912"
+    ],
+    "region": [
         "7912",
-        "33370"
+        "18670"
     ],
-    "establish": [
+    "least": [
         "7912",
         "19238"
+    ],
+    "idrelated": [
+        "7912"
+    ],
+    "interspersed": [
+        "7912"
+    ],
+    "prime": [
+        "7912"
     ],
     "fashion": [
         "7912"
     ],
-    "capable": [
+    "id": [
         "7912"
+    ],
+    "appropriate": [
+        "7912"
+    ],
+    "selfpriming": [
+        "7912"
+    ],
+    "single": [
+        "7912"
+    ],
+    "unique": [
+        "7912",
+        "18670"
     ],
     "potential": [
         "7912",
@@ -911,108 +768,246 @@
         "36474",
         "54440"
     ],
-    "regulatory": [
+    "strongly": [
+        "7912"
+    ],
+    "process": [
         "7912",
         "18670"
+    ],
+    "stability": [
+        "7912"
+    ],
+    "integration": [
+        "7912",
+        "18670"
+    ],
+    "step": [
+        "7912"
+    ],
+    "structure": [
+        "7912",
+        "19238"
+    ],
+    "may": [
+        "7912",
+        "33370"
+    ],
+    "short": [
+        "7912",
+        "33370"
+    ],
+    "tissue": [
+        "7912",
+        "19238"
+    ],
+    "efficient": [
+        "7912",
+        "36474"
+    ],
+    "gene": [
+        "7912",
+        "18670",
+        "19238",
+        "36474",
+        "54440"
+    ],
+    "many": [
+        "7912"
     ],
     "number": [
         "7912",
         "70115"
     ],
-    "retroposition": [
+    "observation": [
+        "7912",
+        "70115"
+    ],
+    "selfprimed": [
         "7912"
+    ],
+    "amplification": [
+        "7912",
+        "33370"
+    ],
+    "throughout": [
+        "7912",
+        "70115"
+    ],
+    "consequence": [
+        "7912"
+    ],
+    "actively": [
+        "7912"
+    ],
+    "secondary": [
+        "7912",
+        "33370"
+    ],
+    "one": [
+        "7912",
+        "19238",
+        "54440",
+        "70490"
+    ],
+    "involve": [
+        "7912"
+    ],
+    "able": [
+        "7912"
+    ],
+    "establish": [
+        "7912",
+        "19238"
+    ],
+    "derive": [
+        "7912",
+        "70115"
     ],
     "copy": [
         "7912"
     ],
-    "coverage": [
-        "18670"
-    ],
-    "two": [
+    "genome": [
+        "7912",
         "18670",
+        "36474"
+    ],
+    "element": [
+        "7912"
+    ],
+    "focus": [
+        "7912"
+    ],
+    "rna": [
+        "7912",
         "19238",
-        "54440"
-    ],
-    "cytosine": [
-        "18670"
-    ],
-    "reveal": [
-        "18670",
-        "19238"
-    ],
-    "genomic": [
-        "18670",
         "33370"
     ],
-    "allelespecific": [
+    "prim": [
+        "7912"
+    ],
+    "suggest": [
+        "7912",
+        "19238",
+        "33370",
+        "70115"
+    ],
+    "evolution": [
+        "7912"
+    ],
+    "ability": [
+        "7912",
+        "33370"
+    ],
+    "disperse": [
+        "7912"
+    ],
+    "master": [
+        "7912"
+    ],
+    "rodent": [
+        "7912"
+    ],
+    "sine": [
+        "7912"
+    ],
+    "transcription": [
+        "7912",
+        "19238"
+    ],
+    "capable": [
+        "7912"
+    ],
+    "transcript": [
+        "7912",
+        "19238"
+    ],
+    "reverse": [
+        "7912"
+    ],
+    "resource": [
         "18670"
     ],
-    "bisulfite": [
+    "methylated": [
         "18670"
     ],
-    "hdmrs": [
+    "rich": [
+        "18670"
+    ],
+    "minor": [
+        "18670"
+    ],
+    "within": [
+        "18670",
+        "54440"
+    ],
+    "mononuclear": [
+        "18670"
+    ],
+    "allow": [
         "18670"
     ],
     "important": [
         "18670",
         "19238"
     ],
-    "confirm": [
+    "coverage": [
+        "18670"
+    ],
+    "first": [
+        "18670",
+        "19238",
+        "36474"
+    ],
+    "clinical": [
+        "18670",
+        "54440"
+    ],
+    "dna": [
+        "18670",
+        "54440"
+    ],
+    "hdmrs": [
+        "18670"
+    ],
+    "methylation": [
+        "18670"
+    ],
+    "genomic": [
+        "18670",
+        "33370"
+    ],
+    "cytosine": [
+        "18670"
+    ],
+    "highly": [
+        "18670",
+        "36474",
+        "54440"
+    ],
+    "advance": [
+        "18670"
+    ],
+    "technological": [
         "18670"
     ],
     "sit": [
         "18670",
         "19238"
     ],
-    "asm": [
+    "wholegenome": [
         "18670"
     ],
-    "ase": [
+    "methylome": [
         "18670"
     ],
-    "disease": [
-        "18670",
-        "54440",
-        "70490"
-    ],
-    "expression": [
-        "18670",
-        "19238",
-        "33370"
-    ],
-    "enable": [
-        "18670",
-        "19238",
-        "54440"
-    ],
-    "within": [
-        "18670",
-        "54440"
-    ],
-    "proteincoding": [
+    "epigenomic": [
         "18670"
     ],
-    "project": [
+    "identification": [
         "18670"
     ],
-    "advance": [
-        "18670"
-    ],
-    "epigenomics": [
-        "18670"
-    ],
-    "cpg": [
-        "18670"
-    ],
-    "constitute": [
-        "18670",
-        "19238"
-    ],
-    "kb": [
-        "18670",
-        "19238"
-    ],
-    "strand": [
+    "unbiased": [
         "18670"
     ],
     "noncpg": [
@@ -1021,309 +1016,345 @@
     "future": [
         "18670"
     ],
-    "identification": [
-        "18670"
-    ],
-    "haploid": [
-        "18670"
-    ],
-    "technological": [
-        "18670"
-    ],
-    "largescale": [
+    "comprehensive": [
         "18670"
     ],
     "rnacoding": [
         "18670"
     ],
-    "correlated": [
+    "recent": [
+        "18670"
+    ],
+    "constitute": [
+        "18670",
+        "19238"
+    ],
+    "pbmcs": [
+        "18670"
+    ],
+    "technology": [
+        "18670"
+    ],
+    "blood": [
+        "18670"
+    ],
+    "confirm": [
+        "18670"
+    ],
+    "new": [
+        "18670"
+    ],
+    "phenomenon": [
+        "18670"
+    ],
+    "cover": [
+        "18670"
+    ],
+    "expression": [
+        "18670",
+        "19238",
+        "33370"
+    ],
+    "largescale": [
         "18670"
     ],
     "peripheral": [
+        "18670"
+    ],
+    "noncoding": [
         "18670"
     ],
     "start": [
         "18670",
         "19238"
     ],
-    "per": [
+    "project": [
         "18670"
     ],
-    "methylomes": [
+    "allelespecific": [
         "18670"
     ],
-    "minor": [
-        "18670"
-    ],
-    "blood": [
-        "18670"
-    ],
-    "noncoding": [
-        "18670"
-    ],
-    "research": [
-        "18670"
-    ],
-    "worldwide": [
-        "18670"
-    ],
-    "resource": [
-        "18670"
-    ],
-    "pbmc": [
-        "18670"
-    ],
-    "first": [
-        "18670",
-        "19238",
-        "36474"
-    ],
-    "mononuclear": [
-        "18670"
-    ],
-    "fold": [
-        "18670"
-    ],
-    "methylation": [
-        "18670"
-    ],
-    "epigenomic": [
-        "18670"
-    ],
-    "clinical": [
-        "18670",
-        "54440"
-    ],
-    "together": [
-        "18670",
-        "33370"
-    ],
-    "decipher": [
-        "18670"
-    ],
-    "allow": [
-        "18670"
-    ],
-    "paradigm": [
-        "18670"
-    ],
-    "individual": [
-        "18670",
-        "54440",
-        "70115"
-    ],
-    "recent": [
-        "18670"
-    ],
-    "test": [
-        "18670",
-        "54440"
-    ],
-    "demonstrate": [
-        "18670",
-        "36474"
-    ],
-    "unbiased": [
-        "18670"
-    ],
-    "cover": [
+    "strand": [
         "18670"
     ],
     "whose": [
         "18670"
     ],
-    "transcriptional": [
+    "source": [
         "18670"
     ],
-    "yh": [
-        "18670"
-    ],
-    "technology": [
-        "18670"
-    ],
-    "methylated": [
-        "18670"
-    ],
-    "new": [
-        "18670"
-    ],
-    "differentially": [
-        "18670"
-    ],
-    "repeat": [
-        "18670"
-    ],
-    "pbmcs": [
-        "18670"
-    ],
-    "health": [
-        "18670"
-    ],
-    "landscape": [
-        "18670"
-    ],
-    "rich": [
+    "ase": [
         "18670"
     ],
     "site": [
         "18670",
         "19238"
     ],
+    "enable": [
+        "18670",
+        "19238",
+        "54440"
+    ],
+    "paradigm": [
+        "18670"
+    ],
+    "two": [
+        "18670",
+        "19238",
+        "54440"
+    ],
+    "repeat": [
+        "18670"
+    ],
+    "bisulfite": [
+        "18670"
+    ],
+    "correlated": [
+        "18670"
+    ],
+    "health": [
+        "18670"
+    ],
+    "together": [
+        "18670",
+        "33370"
+    ],
+    "demonstrate": [
+        "18670",
+        "36474"
+    ],
+    "individual": [
+        "18670",
+        "54440",
+        "70115"
+    ],
+    "cpg": [
+        "18670"
+    ],
+    "kb": [
+        "18670",
+        "19238"
+    ],
+    "fold": [
+        "18670"
+    ],
+    "landscape": [
+        "18670"
+    ],
     "recurrent": [
         "18670"
     ],
-    "comprehensive": [
+    "methylomes": [
         "18670"
     ],
-    "source": [
+    "per": [
         "18670"
     ],
-    "methylome": [
-        "18670"
-    ],
-    "highly": [
+    "reveal": [
         "18670",
-        "36474",
-        "54440"
-    ],
-    "phenomenon": [
-        "18670"
-    ],
-    "wholegenome": [
-        "18670"
+        "19238"
     ],
     "asian": [
-        "18670"
-    ],
-    "carry": [
         "18670"
     ],
     "recently": [
         "18670"
     ],
-    "dna": [
+    "epigenomics": [
+        "18670"
+    ],
+    "differentially": [
+        "18670"
+    ],
+    "disease": [
+        "18670",
+        "54440",
+        "70490"
+    ],
+    "pbmc": [
+        "18670"
+    ],
+    "test": [
         "18670",
         "54440"
     ],
-    "length": [
-        "19238"
+    "carry": [
+        "18670"
     ],
-    "contain": [
+    "worldwide": [
+        "18670"
+    ],
+    "research": [
+        "18670"
+    ],
+    "haploid": [
+        "18670"
+    ],
+    "proteincoding": [
+        "18670"
+    ],
+    "asm": [
+        "18670"
+    ],
+    "transcriptional": [
+        "18670"
+    ],
+    "decipher": [
+        "18670"
+    ],
+    "yh": [
+        "18670"
+    ],
+    "family": [
         "19238",
-        "54440"
+        "70115"
     ],
-    "system": [
+    "three": [
         "19238",
         "36474"
-    ],
-    "macrophage": [
-        "19238"
-    ],
-    "spleen": [
-        "19238"
-    ],
-    "entire": [
-        "19238"
-    ],
-    "encode": [
-        "19238"
-    ],
-    "unit": [
-        "19238"
-    ],
-    "part": [
-        "19238"
-    ],
-    "mbps": [
-        "19238"
-    ],
-    "splice": [
-        "19238"
-    ],
-    "regulation": [
-        "19238"
     ],
     "clearly": [
         "19238",
         "70115"
     ],
-    "integral": [
+    "among": [
         "19238"
     ],
-    "andor": [
-        "19238"
-    ],
-    "also": [
-        "19238",
-        "54440"
-    ],
-    "consist": [
-        "19238"
-    ],
-    "myelin": [
-        "19238"
-    ],
-    "basic": [
-        "19238"
-    ],
-    "normal": [
+    "approximately": [
         "19238",
         "70115"
     ],
-    "fetal": [
+    "alternatively": [
         "19238"
     ],
-    "seven": [
+    "oligodendrocyte": [
         "19238"
     ],
-    "mbp": [
+    "macrophage": [
         "19238"
     ],
-    "thymus": [
+    "isolate": [
+        "19238"
+    ],
+    "lineagembp": [
         "19238"
     ],
     "evidence": [
         "19238"
     ],
-    "structural": [
+    "seven": [
         "19238"
     ],
-    "alternatively": [
-        "19238"
-    ],
-    "produce": [
-        "19238"
-    ],
-    "among": [
+    "conserve": [
         "19238"
     ],
     "locus": [
         "19238",
         "36474"
     ],
-    "give": [
+    "encode": [
+        "19238"
+    ],
+    "cord": [
+        "19238"
+    ],
+    "also": [
         "19238",
-        "70115"
+        "54440"
     ],
-    "express": [
+    "encompasses": [
         "19238"
     ],
-    "cdna": [
+    "golli": [
         "19238"
     ],
-    "u": [
+    "system": [
+        "19238",
+        "36474"
+    ],
+    "specie": [
         "19238"
     ],
-    "arrangement": [
+    "produce": [
         "19238"
     ],
     "bcell": [
         "19238"
     ],
+    "length": [
+        "19238"
+    ],
+    "arrangement": [
+        "19238"
+    ],
     "gollimbp": [
         "19238"
     ],
+    "cdna": [
+        "19238"
+    ],
+    "nervous": [
+        "19238"
+    ],
+    "contains": [
+        "19238"
+    ],
+    "genetic": [
+        "19238",
+        "36474"
+    ],
+    "fetal": [
+        "19238"
+    ],
+    "give": [
+        "19238",
+        "70115"
+    ],
+    "determine": [
+        "19238",
+        "33370",
+        "54440"
+    ],
+    "normal": [
+        "19238",
+        "70115"
+    ],
+    "consist": [
+        "19238"
+    ],
+    "structural": [
+        "19238"
+    ],
+    "myelin": [
+        "19238"
+    ],
+    "spleen": [
+        "19238"
+    ],
+    "rise": [
+        "19238",
+        "70115"
+    ],
+    "contain": [
+        "19238",
+        "54440"
+    ],
     "autoimmunogenencephalitogen": [
+        "19238"
+    ],
+    "oligodendroglioma": [
+        "19238"
+    ],
+    "part": [
+        "19238"
+    ],
+    "mbp": [
+        "19238"
+    ],
+    "mbps": [
+        "19238"
+    ],
+    "thymus": [
         "19238"
     ],
     "well": [
@@ -1331,195 +1362,151 @@
         "36474",
         "54440"
     ],
-    "specie": [
+    "entire": [
         "19238"
     ],
-    "cord": [
-        "19238"
-    ],
-    "golli": [
-        "19238"
-    ],
-    "contains": [
-        "19238"
-    ],
-    "determine": [
-        "19238",
-        "33370",
-        "54440"
-    ],
-    "blot": [
-        "19238"
-    ],
-    "three": [
-        "19238",
-        "36474"
-    ],
-    "oligodendroglioma": [
-        "19238"
-    ],
-    "exon": [
-        "19238"
-    ],
-    "genetic": [
-        "19238",
-        "36474"
-    ],
-    "isolate": [
-        "19238"
-    ],
-    "oligodendrocyte": [
-        "19238"
-    ],
-    "family": [
-        "19238",
-        "70115"
-    ],
-    "nervous": [
+    "basic": [
         "19238"
     ],
     "wellknown": [
         "19238"
     ],
-    "approximately": [
-        "19238",
-        "70115"
+    "integral": [
+        "19238"
+    ],
+    "andor": [
+        "19238"
+    ],
+    "u": [
+        "19238"
+    ],
+    "splice": [
+        "19238"
+    ],
+    "unit": [
+        "19238"
     ],
     "spinal": [
         "19238"
     ],
-    "encompasses": [
+    "exon": [
         "19238"
     ],
-    "conserve": [
+    "regulation": [
         "19238"
     ],
-    "lineagembp": [
+    "blot": [
         "19238"
     ],
-    "rise": [
-        "19238",
-        "70115"
+    "express": [
+        "19238"
     ],
-    "lymphoma": [
+    "silico": [
         "33370"
     ],
-    "inactivate": [
+    "promotion": [
         "33370"
     ],
-    "cellular": [
+    "formation": [
         "33370"
     ],
-    "tnfalphainduced": [
+    "regulator": [
         "33370"
     ],
-    "mutation": [
+    "elevate": [
+        "33370"
+    ],
+    "subpopulation": [
         "33370"
     ],
     "cellcycle": [
         "33370"
     ],
-    "growth": [
+    "gscs": [
         "33370"
     ],
-    "tnfaip": [
-        "33370"
-    ],
-    "overexpression": [
-        "33370",
-        "36474"
-    ],
-    "nfkappab": [
-        "33370"
-    ],
-    "bear": [
-        "33370"
-    ],
-    "apoptosis": [
-        "33370"
-    ],
-    "therefore": [
-        "33370"
-    ],
-    "sensitized": [
-        "33370"
-    ],
-    "tumor": [
-        "33370"
-    ],
-    "inversely": [
-        "33370"
-    ],
-    "database": [
-        "33370"
-    ],
-    "upon": [
-        "33370"
-    ],
-    "sequencing": [
-        "33370"
-    ],
-    "shrna": [
-        "33370"
-    ],
-    "prela": [
-        "33370"
-    ],
-    "act": [
-        "33370"
-    ],
-    "increase": [
-        "33370"
-    ],
-    "susceptible": [
-        "33370"
-    ],
-    "tnfalphamediated": [
-        "33370"
-    ],
-    "survival": [
-        "33370"
-    ],
-    "significance": [
-        "33370"
-    ],
-    "gsc": [
-        "33370"
-    ],
-    "inhibit": [
-        "33370"
-    ],
-    "lentiviralmediated": [
-        "33370"
-    ],
-    "therapy": [
-        "33370"
-    ],
-    "likely": [
-        "33370"
-    ],
-    "resistance": [
+    "caution": [
         "33370"
     ],
     "regulate": [
         "33370"
     ],
+    "therapeutic": [
+        "33370"
+    ],
+    "contribute": [
+        "33370"
+    ],
+    "gsc": [
+        "33370"
+    ],
     "xenograft": [
         "33370"
     ],
-    "type": [
+    "glioma": [
+        "33370"
+    ],
+    "sequencing": [
+        "33370"
+    ],
+    "overexpressed": [
+        "33370"
+    ],
+    "knockdown": [
+        "33370"
+    ],
+    "inactivate": [
         "33370"
     ],
     "useful": [
         "33370"
     ],
-    "progression": [
+    "tumor": [
         "33370"
     ],
-    "hairpin": [
+    "database": [
         "33370"
     ],
-    "silico": [
+    "delivery": [
+        "33370"
+    ],
+    "glioblastoma": [
+        "33370"
+    ],
+    "cellular": [
+        "33370"
+    ],
+    "deadly": [
+        "33370"
+    ],
+    "point": [
+        "33370"
+    ],
+    "mutation": [
+        "33370"
+    ],
+    "nonstem": [
+        "33370"
+    ],
+    "depend": [
+        "33370"
+    ],
+    "enhancer": [
+        "33370"
+    ],
+    "tnfalphamediated": [
+        "33370"
+    ],
+    "upon": [
+        "33370"
+    ],
+    "sensitized": [
+        "33370"
+    ],
+    "survival": [
+        "33370"
+    ],
+    "bulk": [
         "33370"
     ],
     "identify": [
@@ -1529,11 +1516,104 @@
     "anticancer": [
         "33370"
     ],
+    "correlate": [
+        "33370"
+    ],
+    "death": [
+        "33370"
+    ],
     "assay": [
         "33370",
         "54440"
     ],
+    "significance": [
+        "33370"
+    ],
+    "differ": [
+        "33370"
+    ],
+    "selfrenewing": [
+        "33370"
+    ],
+    "inversely": [
+        "33370"
+    ],
+    "resistance": [
+        "33370"
+    ],
+    "tumorigenic": [
+        "33370"
+    ],
+    "associate": [
+        "33370"
+    ],
+    "act": [
+        "33370"
+    ],
+    "type": [
+        "33370"
+    ],
+    "likely": [
+        "33370"
+    ],
+    "tnfalphainduced": [
+        "33370"
+    ],
+    "shrna": [
+        "33370"
+    ],
+    "tnfaip": [
+        "33370"
+    ],
+    "overexpression": [
+        "33370",
+        "36474"
+    ],
+    "match": [
+        "33370"
+    ],
+    "lymphoma": [
+        "33370"
+    ],
+    "molecular": [
+        "33370",
+        "54440"
+    ],
+    "apoptosis": [
+        "33370"
+    ],
+    "growth": [
+        "33370"
+    ],
+    "increase": [
+        "33370"
+    ],
+    "fact": [
+        "33370"
+    ],
+    "level": [
+        "33370",
+        "54440"
+    ],
+    "less": [
+        "33370"
+    ],
     "reduced": [
+        "33370"
+    ],
+    "view": [
+        "33370"
+    ],
+    "hairpin": [
+        "33370"
+    ],
+    "bear": [
+        "33370"
+    ],
+    "therapy": [
+        "33370"
+    ],
+    "decreased": [
         "33370"
     ],
     "although": [
@@ -1541,166 +1621,91 @@
         "54440",
         "70490"
     ],
-    "glioma": [
+    "inhibit": [
         "33370"
     ],
-    "maintain": [
+    "nfkappab": [
         "33370"
     ],
-    "deadly": [
+    "prela": [
         "33370"
     ],
-    "view": [
+    "susceptible": [
         "33370"
     ],
-    "glioblastoma": [
-        "33370"
-    ],
-    "maintenance": [
+    "lentiviralmediated": [
         "33370"
     ],
     "selfrenew": [
         "33370"
     ],
-    "depend": [
-        "33370"
-    ],
-    "decreased": [
-        "33370"
-    ],
-    "point": [
-        "33370"
-    ],
-    "molecular": [
-        "33370",
-        "54440"
-    ],
-    "delivery": [
-        "33370"
-    ],
-    "bulk": [
-        "33370"
-    ],
-    "caution": [
-        "33370"
-    ],
-    "tumorigenic": [
-        "33370"
-    ],
-    "mechanism": [
-        "33370"
-    ],
-    "regulator": [
-        "33370"
-    ],
-    "hierarchy": [
-        "33370"
-    ],
-    "match": [
-        "33370"
-    ],
-    "phosphorylation": [
-        "33370"
-    ],
-    "level": [
-        "33370",
-        "54440"
-    ],
-    "fact": [
-        "33370"
-    ],
-    "formation": [
-        "33370"
-    ],
-    "neurosphere": [
-        "33370"
-    ],
-    "death": [
-        "33370"
-    ],
-    "less": [
-        "33370"
-    ],
-    "nonstem": [
-        "33370"
-    ],
-    "promotion": [
+    "progression": [
         "33370"
     ],
     "mrna": [
         "33370"
     ],
-    "enhancer": [
+    "phosphorylation": [
         "33370"
     ],
-    "overexpressed": [
+    "maintenance": [
         "33370"
     ],
-    "subpopulation": [
+    "neurosphere": [
         "33370"
     ],
-    "elevate": [
+    "therefore": [
         "33370"
     ],
-    "selfrenewing": [
+    "maintain": [
         "33370"
     ],
-    "associate": [
+    "mechanism": [
         "33370"
     ],
-    "gscs": [
+    "hierarchy": [
         "33370"
     ],
-    "therapeutic": [
-        "33370"
-    ],
-    "differ": [
-        "33370"
-    ],
-    "correlate": [
-        "33370"
-    ],
-    "knockdown": [
-        "33370"
-    ],
-    "contribute": [
-        "33370"
-    ],
-    "thus": [
+    "zfn\u2013mediated": [
         "36474"
     ],
-    "type\u2013specific": [
-        "36474"
-    ],
-    "full": [
-        "36474"
-    ],
-    "zincfinger": [
-        "36474"
-    ],
-    "aavs": [
-        "36474"
-    ],
-    "lineage": [
+    "pluripotent": [
         "36474"
     ],
     "overexpress": [
         "36474"
     ],
+    "full": [
+        "36474"
+    ],
     "robust": [
         "36474"
     ],
-    "modification": [
+    "lineage": [
         "36474"
     ],
-    "best": [
-        "36474",
-        "70490"
+    "oct": [
+        "36474"
+    ],
+    "aavs": [
+        "36474"
+    ],
+    "realize": [
+        "36474"
+    ],
+    "reporter": [
+        "36474"
+    ],
+    "pitx": [
+        "36474"
+    ],
+    "hescs": [
+        "36474"
+    ],
+    "nonexpressed": [
+        "36474"
     ],
     "repair": [
-        "36474"
-    ],
-    "druginducible": [
         "36474"
     ],
     "specific": [
@@ -1713,22 +1718,44 @@
         "36474",
         "54440"
     ],
+    "transgene": [
+        "36474"
+    ],
+    "state": [
+        "36474"
+    ],
+    "thus": [
+        "36474"
+    ],
+    "editing": [
+        "36474"
+    ],
+    "disrupt": [
+        "36474"
+    ],
+    "routinely": [
+        "36474"
+    ],
     "however": [
         "36474"
     ],
-    "reliable": [
+    "technique": [
+        "36474"
+    ],
+    "zfns": [
         "36474"
     ],
     "pouf": [
         "36474"
     ],
-    "embryonic": [
+    "zincfinger": [
         "36474"
     ],
-    "octegfp": [
-        "36474"
+    "best": [
+        "36474",
+        "70490"
     ],
-    "generate": [
+    "finally": [
         "36474"
     ],
     "method": [
@@ -1736,31 +1763,34 @@
         "54440",
         "70490"
     ],
-    "technique": [
+    "tool": [
         "36474"
     ],
-    "oct": [
+    "druginducible": [
+        "36474"
+    ],
+    "embryonic": [
+        "36474"
+    ],
+    "monitor": [
+        "36474"
+    ],
+    "insert": [
+        "36474"
+    ],
+    "type\u2013specific": [
         "36474"
     ],
     "nuclease": [
         "36474"
     ],
-    "reporter": [
+    "generate": [
         "36474"
     ],
-    "tool": [
+    "modification": [
         "36474"
     ],
-    "zfns": [
-        "36474"
-    ],
-    "transgene": [
-        "36474"
-    ],
-    "nonexpressed": [
-        "36474"
-    ],
-    "editing": [
+    "reliable": [
         "36474"
     ],
     "require": [
@@ -1769,106 +1799,171 @@
         "70115",
         "70490"
     ],
-    "insert": [
-        "36474"
-    ],
-    "used": [
+    "octegfp": [
         "36474"
     ],
     "inefficient": [
         "36474"
     ],
-    "routinely": [
+    "used": [
         "36474"
-    ],
-    "state": [
-        "36474"
-    ],
-    "pitx": [
-        "36474"
-    ],
-    "monitor": [
-        "36474"
-    ],
-    "realize": [
-        "36474"
-    ],
-    "hescs": [
-        "36474"
-    ],
-    "pluripotent": [
-        "36474"
-    ],
-    "zfn\u2013mediated": [
-        "36474"
-    ],
-    "disrupt": [
-        "36474"
-    ],
-    "finally": [
-        "36474"
-    ],
-    "pneumococcal": [
-        "54440"
-    ],
-    "composition": [
-        "54440"
     ],
     "could": [
+        "54440"
+    ],
+    "combination": [
+        "54440"
+    ],
+    "background": [
+        "54440"
+    ],
+    "consideration": [
+        "54440"
+    ],
+    "approximate": [
+        "54440",
+        "70115"
+    ],
+    "statistical": [
+        "54440"
+    ],
+    "dependency": [
         "54440"
     ],
     "extract": [
         "54440"
     ],
-    "uniquely": [
+    "empirical": [
         "54440"
     ],
-    "additional": [
+    "microarrays": [
         "54440"
     ],
-    "multiplexed": [
+    "biomarkers": [
         "54440"
     ],
-    "detect": [
-        "54440"
+    "probability": [
+        "54440",
+        "70490"
     ],
-    "percentage": [
-        "54440"
-    ],
-    "propose": [
-        "54440"
-    ],
-    "capsular": [
-        "54440"
-    ],
-    "base": [
-        "54440"
-    ],
-    "intensity": [
-        "54440"
-    ],
-    "pneumoniae": [
+    "common": [
         "54440"
     ],
     "low": [
         "54440"
     ],
-    "present": [
+    "obtain": [
         "54440"
     ],
-    "take": [
+    "serotyping": [
         "54440"
     ],
-    "statistical": [
+    "diagnostics": [
         "54440"
     ],
-    "identical": [
+    "numerous": [
+        "54440"
+    ],
+    "probe": [
+        "54440"
+    ],
+    "abundance": [
+        "54440"
+    ],
+    "composition": [
+        "54440"
+    ],
+    "streptococcus": [
+        "54440"
+    ],
+    "platform": [
         "54440"
     ],
     "microarray": [
         "54440"
     ],
+    "infectious": [
+        "54440"
+    ],
+    "intensity": [
+        "54440"
+    ],
+    "serotypes": [
+        "54440"
+    ],
+    "accuracy": [
+        "54440",
+        "70490"
+    ],
+    "experimental": [
+        "54440"
+    ],
+    "presence": [
+        "54440"
+    ],
+    "information": [
+        "54440",
+        "70115"
+    ],
+    "detect": [
+        "54440"
+    ],
+    "bayesian": [
+        "54440",
+        "70115"
+    ],
+    "pneumoniae": [
+        "54440"
+    ],
+    "homologous": [
+        "54440"
+    ],
+    "extra": [
+        "54440"
+    ],
+    "design": [
+        "54440"
+    ],
+    "random": [
+        "54440"
+    ],
+    "percentage": [
+        "54440"
+    ],
+    "uniquely": [
+        "54440"
+    ],
+    "pneumococcal": [
+        "54440"
+    ],
+    "propose": [
+        "54440"
+    ],
+    "identical": [
+        "54440"
+    ],
+    "base": [
+        "54440"
+    ],
+    "multiplexed": [
+        "54440"
+    ],
+    "present": [
+        "54440"
+    ],
     "offer": [
+        "54440"
+    ],
+    "serotype": [
+        "54440"
+    ],
+    "integrate": [
+        "54440"
+    ],
+    "take": [
+        "54440"
+    ],
+    "conclusion": [
         "54440"
     ],
     "polysaccharide": [
@@ -1877,235 +1972,83 @@
     "incorporate": [
         "54440"
     ],
-    "serotypes": [
-        "54440"
-    ],
-    "probe": [
-        "54440"
-    ],
-    "empirical": [
-        "54440"
-    ],
-    "bayesian": [
-        "54440",
-        "70115"
-    ],
-    "presence": [
-        "54440"
-    ],
-    "infectious": [
-        "54440"
-    ],
-    "common": [
-        "54440"
-    ],
-    "diagnostics": [
-        "54440"
-    ],
-    "homologous": [
-        "54440"
-    ],
-    "information": [
-        "54440",
-        "70115"
-    ],
-    "streptococcus": [
-        "54440"
-    ],
-    "probability": [
-        "54440",
-        "70490"
-    ],
-    "experimental": [
-        "54440"
-    ],
-    "obtain": [
-        "54440"
-    ],
-    "accuracy": [
-        "54440",
-        "70490"
-    ],
-    "serotype": [
-        "54440"
-    ],
-    "serotyping": [
-        "54440"
-    ],
-    "random": [
-        "54440"
-    ],
-    "background": [
-        "54440"
-    ],
-    "platform": [
-        "54440"
-    ],
-    "microarrays": [
-        "54440"
-    ],
-    "approximate": [
-        "54440",
-        "70115"
-    ],
-    "design": [
-        "54440"
-    ],
-    "dependency": [
-        "54440"
-    ],
-    "biomarkers": [
-        "54440"
-    ],
-    "abundance": [
-        "54440"
-    ],
-    "conclusion": [
-        "54440"
-    ],
-    "oligonucleotide": [
-        "54440"
-    ],
-    "numerous": [
-        "54440"
-    ],
-    "know": [
-        "54440"
-    ],
-    "consideration": [
-        "54440"
-    ],
-    "synthesis": [
+    "capsular": [
         "54440"
     ],
     "sample": [
         "54440"
     ],
-    "integrate": [
+    "synthesis": [
         "54440"
     ],
-    "combination": [
+    "know": [
         "54440"
     ],
-    "extra": [
+    "oligonucleotide": [
         "54440"
     ],
-    "explore": [
+    "additional": [
+        "54440"
+    ],
+    "proposal": [
         "70115"
     ],
-    "example": [
-        "70115",
-        "70490"
-    ],
-    "contribution": [
+    "criterion": [
         "70115"
     ],
-    "argument": [
+    "adequacy": [
         "70115"
     ],
-    "monte": [
+    "hat": [
         "70115"
     ],
-    "comparison": [
-        "70115"
-    ],
-    "decision": [
-        "70115",
-        "70490"
-    ],
-    "consider": [
-        "70115"
-    ],
-    "onto": [
-        "70115"
-    ],
-    "complex": [
-        "70115"
-    ],
-    "problem": [
-        "70115"
-    ],
-    "leverage": [
-        "70115"
-    ],
-    "define": [
-        "70115"
-    ],
-    "matrix": [
-        "70115"
-    ],
-    "parameter": [
-        "70115"
-    ],
-    "hierarchical": [
-        "70115"
-    ],
-    "comparing": [
-        "70115"
-    ],
-    "complexity": [
-        "70115"
-    ],
-    "pd": [
-        "70115"
-    ],
-    "fisher": [
-        "70115"
-    ],
-    "illustrate": [
-        "70115",
-        "70490"
-    ],
-    "trivial": [
+    "property": [
         "70115"
     ],
     "carlo": [
         "70115"
     ],
-    "quantity": [
+    "explore": [
+        "70115"
+    ],
+    "problem": [
+        "70115"
+    ],
+    "effective": [
+        "70115"
+    ],
+    "parameter": [
+        "70115"
+    ],
+    "residual": [
+        "70115"
+    ],
+    "deviance": [
+        "70115"
+    ],
+    "relate": [
+        "70115"
+    ],
+    "define": [
+        "70115"
+    ],
+    "trace": [
+        "70115"
+    ],
+    "draw": [
         "70115"
     ],
     "diagnostic": [
         "70115",
         "70490"
     ],
-    "covariance": [
+    "comparison": [
         "70115"
     ],
-    "residual": [
+    "contribution": [
         "70115"
     ],
-    "classical": [
-        "70115"
-    ],
-    "effective": [
-        "70115"
-    ],
-    "theoretic": [
-        "70115"
-    ],
-    "general": [
-        "70115"
-    ],
-    "\u2018": [
-        "70115"
-    ],
-    "relate": [
-        "70115"
-    ],
-    "proposal": [
-        "70115"
-    ],
-    "procedure": [
-        "70115"
-    ],
-    "projecting": [
-        "70115"
-    ],
-    "criterion": [
-        "70115"
-    ],
-    "summary": [
+    "markov": [
         "70115"
     ],
     "interest": [
@@ -2114,121 +2057,178 @@
     "fit": [
         "70115"
     ],
-    "markov": [
-        "70115"
-    ],
-    "product": [
-        "70115"
-    ],
-    "add": [
-        "70115"
-    ],
     "compute": [
+        "70115"
+    ],
+    "complex": [
+        "70115"
+    ],
+    "decision": [
+        "70115",
+        "70490"
+    ],
+    "summary": [
+        "70115"
+    ],
+    "quantity": [
         "70115"
     ],
     "justification": [
         "70115"
     ],
-    "alternative": [
+    "onto": [
         "70115"
     ],
-    "adequacy": [
-        "70115"
-    ],
-    "draw": [
-        "70115"
-    ],
-    "trace": [
-        "70115"
-    ],
-    "correspond": [
-        "70115"
-    ],
-    "hat": [
-        "70115"
-    ],
-    "exponential": [
-        "70115"
-    ],
-    "property": [
+    "consider": [
         "70115"
     ],
     "emphasized": [
         "70115"
     ],
-    "plot": [
+    "example": [
+        "70115",
+        "70490"
+    ],
+    "monte": [
+        "70115"
+    ],
+    "theoretic": [
+        "70115"
+    ],
+    "product": [
+        "70115"
+    ],
+    "leverage": [
         "70115"
     ],
     "chain": [
         "70115"
     ],
-    "deviance": [
+    "exponential": [
         "70115"
     ],
-    "nomograms": [
+    "hierarchical": [
+        "70115"
+    ],
+    "add": [
+        "70115"
+    ],
+    "pd": [
+        "70115"
+    ],
+    "covariance": [
+        "70115"
+    ],
+    "comparing": [
+        "70115"
+    ],
+    "fisher": [
+        "70115"
+    ],
+    "alternative": [
+        "70115"
+    ],
+    "classical": [
+        "70115"
+    ],
+    "trivial": [
+        "70115"
+    ],
+    "complexity": [
+        "70115"
+    ],
+    "matrix": [
+        "70115"
+    ],
+    "correspond": [
+        "70115"
+    ],
+    "procedure": [
+        "70115"
+    ],
+    "illustrate": [
+        "70115",
         "70490"
     ],
-    "several": [
+    "plot": [
+        "70115"
+    ],
+    "\u2018": [
+        "70115"
+    ],
+    "argument": [
+        "70115"
+    ],
+    "projecting": [
+        "70115"
+    ],
+    "general": [
+        "70115"
+    ],
+    "refine": [
         "70490"
     ],
-    "simple": [
+    "conversion": [
         "70490"
     ],
     "seldom": [
         "70490"
     ],
-    "bedside": [
+    "describe": [
         "70490"
     ],
     "back": [
         "70490"
     ],
-    "likelihood": [
-        "70490"
-    ],
-    "interpreting": [
-        "70490"
-    ],
-    "refine": [
-        "70490"
-    ],
-    "\u201c": [
+    "simple": [
         "70490"
     ],
     "avoids": [
         "70490"
     ],
-    "calculator": [
-        "70490"
-    ],
-    "odds": [
-        "70490"
-    ],
-    "describe": [
-        "70490"
-    ],
-    "article": [
-        "70490"
-    ],
-    "\u201d": [
-        "70490"
-    ],
-    "convert": [
+    "clinician": [
         "70490"
     ],
     "forth": [
         "70490"
     ],
-    "interpret": [
+    "several": [
         "70490"
     ],
-    "clinician": [
+    "interpreting": [
+        "70490"
+    ],
+    "article": [
+        "70490"
+    ],
+    "odds": [
+        "70490"
+    ],
+    "\u201d": [
+        "70490"
+    ],
+    "likelihood": [
+        "70490"
+    ],
+    "nomograms": [
+        "70490"
+    ],
+    "calculator": [
+        "70490"
+    ],
+    "bedside": [
         "70490"
     ],
     "ratio": [
         "70490"
     ],
-    "conversion": [
+    "convert": [
+        "70490"
+    ],
+    "\u201c": [
+        "70490"
+    ],
+    "interpret": [
         "70490"
     ]
 }

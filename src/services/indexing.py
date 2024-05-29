@@ -1,10 +1,9 @@
 import math
 from collections import defaultdict
 from pandas import DataFrame
+from nltk.tokenize import word_tokenize
 from utils.storing import store_dict, store_df
-from utils.converting import convert_to_str, list2word_tokenizer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from services.text_processing import TextProcessor
 
 class Indexing():
 
@@ -35,10 +34,10 @@ class Indexing():
     # ------------------------------------------------------ 
     def calc_tf(self, doc):
         tf = {}
-        doc_terms = doc['text']
+        text = word_tokenize(doc['text'])
 
-        for term in doc_terms:
-            tf[term] = doc_terms.count(term) / len(doc_terms)
+        for word in text:
+            tf[word] = text.count(word) / len(text)
 
         return tf
     # ------------------------------------------------------
@@ -55,8 +54,9 @@ class Indexing():
         return inverted_index
     # ------------------------------------------------------
     def get_doc_terms(self, doc):
+        text = word_tokenize(doc['text'])
         doc_terms = set()
-        doc_terms.update(doc['text'])
+        doc_terms.update(text)
         return doc_terms
     # ------------------------------------------------------
     def calc_idf(self, inverted_index: dict):
@@ -83,7 +83,7 @@ class Indexing():
     # ------------------------------------------------------
     def calc_tfidf(self, idf, doc):
         tf_idf = {}
-        doc_terms = doc['text']
+        doc_terms = self.get_doc_terms(doc)
         tf = self.calc_tf(doc)
         for term in doc_terms:
             tf_idf[term] = tf[term] * idf[term]
@@ -91,11 +91,9 @@ class Indexing():
     # ------------------------------------------------------
     def calc_scikit_tfidfs(self):
         ids = [item['id'] for item in self.corpus]
-        docs = [convert_to_str(item['text']) for item in self.corpus]
-        # docs = [item['text'] for item in self.corpus]
+        docs = [item['text'] for item in self.corpus]
 
-        processor = TextProcessor()
-        vectorizer = TfidfVectorizer(preprocessor=processor.process, tokenizer=list2word_tokenizer)
+        vectorizer = TfidfVectorizer()
         tfidf_matrix = vectorizer.fit_transform(docs)
 
         df = DataFrame(
@@ -103,6 +101,5 @@ class Indexing():
             index = ids,
             columns = vectorizer.get_feature_names_out()
             )
-        # df = df.fillna(0)
-        store_df(df, 'res/scikit/tf_idf.csv')
+        store_df(df, 'res/tf_idf-scikit.csv')
     # ------------------------------------------------------
