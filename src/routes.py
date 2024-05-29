@@ -27,7 +27,8 @@ async def text_processing_endpoint(body: dict = Body()):
 async def indexing_endpoint(body: dict = Body()):
     print('indexing endpoint')
     corpus = body.get('corpus')
-    indexing = Indexing(corpus)
+    directory = body.get('directory')
+    indexing = Indexing(corpus, directory)
     indexing.create_index()
 
 @router.post(endpoints.MATCHING)

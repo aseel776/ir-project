@@ -41,7 +41,8 @@ else:
 # ------------Indexing------------
 
 request_body = {
-    'corpus': processed_corpus
+    'corpus': processed_corpus,
+    'directory': 'res/dataset-1',
 }
 response = requests.post(f'{baseUrl}{endpoints.INDEXING}', json = request_body)
 print(response.status_code)

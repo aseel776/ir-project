@@ -1,4 +1,5 @@
 import math
+import os
 from collections import defaultdict
 from pandas import DataFrame
 from nltk.tokenize import word_tokenize
@@ -7,8 +8,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 class Indexing():
 
-    def __init__(self, corpus: list[dict]):
+    def __init__(self, corpus: list[dict], directory: str):
         self.corpus = corpus.copy()
+        self.directory = directory
+        if not os.path.exists(directory):
+            os.makedirs(directory)
     # ------------------------------------------------------
     def create_index(self):
         self.calc_all_tfs()
@@ -30,7 +34,7 @@ class Indexing():
             
         df = DataFrame(tf_list, index=keys)
         df = df.fillna(0)        
-        store_df(df, 'res/tf.csv')
+        store_df(df, f'{self.directory}/tf.csv')
     # ------------------------------------------------------ 
     def calc_tf(self, doc):
         tf = {}
@@ -50,7 +54,7 @@ class Indexing():
                 inverted_index[term].append(doc['id'])
     
         inverted_index = dict(inverted_index)
-        store_dict(inverted_index, 'res/inverted_index.json')
+        store_dict(inverted_index, f'{self.directory}/inverted_index.json')
         return inverted_index
     # ------------------------------------------------------
     def get_doc_terms(self, doc):
@@ -67,7 +71,7 @@ class Indexing():
             idf[term] = math.log((docs_count / len(doc_ids)) + 1)
 
         df = DataFrame(idf, index=['idf'])
-        store_df(df, 'res/idf.csv')
+        store_df(df, f'{self.directory}/idf.csv')
         return idf
     # ------------------------------------------------------
     def calc_all_tfidfs(self, idf):
@@ -79,7 +83,7 @@ class Indexing():
             keys.append(doc['id'])
         df = DataFrame(tf_idf_list, index=keys)
         df = df.fillna(0)
-        store_df(df, 'res/tf_idf.csv')        
+        store_df(df, f'{self.directory}/tf_idf.csv')        
     # ------------------------------------------------------
     def calc_tfidf(self, idf, doc):
         tf_idf = {}
@@ -101,5 +105,5 @@ class Indexing():
             index = ids,
             columns = vectorizer.get_feature_names_out()
             )
-        store_df(df, 'res/tf_idf-scikit.csv')
+        store_df(df, f'{self.directory}/tf_idf-scikit.csv')
     # ------------------------------------------------------
