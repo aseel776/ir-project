@@ -1,7 +1,7 @@
 from fastapi import Body, APIRouter
 from services.preprocessing import PreProcessor
 from services.text_processing import TextProcessor
-from services.indexing import create_index
+from services.indexing import Indexing
 from services.matching import matach, rank
 import endpoints
 
@@ -24,9 +24,11 @@ async def text_processing_endpoint(body: dict = Body()):
     return {'processed_text': processed_text}
 
 @router.post(endpoints.INDEXING)
-async def indexing_endpoint(data: dict):
+async def indexing_endpoint(body: dict = Body()):
     print('indexing endpoint')
-    return create_index(data)
+    corpus = body.get('corpus')
+    indexing = Indexing(corpus)
+    indexing.create_index()
 
 @router.post(endpoints.MATCHING)
 async def matching_endpoint():

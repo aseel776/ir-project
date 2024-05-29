@@ -33,7 +33,15 @@ request_body = {
 }
 response = requests.post(f'{baseUrl}{endpoints.PRE_PROCESSING}', json = request_body)
 if response.status_code == 200:
-    data = response.json().get('processed_corpus')
-    print(data)
+    processed_corpus = response.json().get('processed_corpus')
+    # print(processed_corpus)
 else:
     print(response.status_code)
+
+# ------------Indexing------------
+
+request_body = {
+    'corpus': processed_corpus
+}
+response = requests.post(f'{baseUrl}{endpoints.INDEXING}', json = request_body)
+print(response.status_code)
