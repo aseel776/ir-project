@@ -9,8 +9,9 @@ class TextProcessor:
     def process(self, text: str):
         # first tolower
         text = text.lower()
-        # then remove punctuations
+        # then remove punctuations & numbers
         text = self.remove_punctuation(text)
+        text = self.remove_numbers(text)
         # tokenize
         tokens = self.tokenize(text)
         # remove stop words from tokens
@@ -26,6 +27,10 @@ class TextProcessor:
         table = str.maketrans('', '', punctuation)
         filtered_text = text.translate(table)
         return filtered_text
+    
+    def remove_numbers(self, text: str):
+      import re
+      return re.sub(r"\d+", "", text)
     
     def tokenize(self, text: str):
         return word_tokenize(text)
