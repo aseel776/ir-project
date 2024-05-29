@@ -2,6 +2,9 @@ import math
 from collections import defaultdict
 from pandas import DataFrame
 from utils.storing import store_dict, store_df
+from utils.converting import convert_to_str, list2word_tokenizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from services.text_processing import TextProcessor
 
 class Indexing():
 
@@ -15,6 +18,7 @@ class Indexing():
         idf = self.calc_idf(inverted_index)
 
         self.calc_all_tfidfs(idf)
+        self.calc_scikit_tfidfs()
     # ------------------------------------------------------
     def calc_all_tfs(self):    
         tf_list = []
@@ -84,3 +88,21 @@ class Indexing():
         for term in doc_terms:
             tf_idf[term] = tf[term] * idf[term]
         return tf_idf
+    # ------------------------------------------------------
+    def calc_scikit_tfidfs(self):
+        ids = [item['id'] for item in self.corpus]
+        docs = [convert_to_str(item['text']) for item in self.corpus]
+        # docs = [item['text'] for item in self.corpus]
+
+        processor = TextProcessor()
+        vectorizer = TfidfVectorizer(preprocessor=processor.process, tokenizer=list2word_tokenizer)
+        tfidf_matrix = vectorizer.fit_transform(docs)
+
+        df = DataFrame(
+            tfidf_matrix.toarray(), 
+            index = ids,
+            columns = vectorizer.get_feature_names_out()
+            )
+        # df = df.fillna(0)
+        store_df(df, 'res/scikit/tf_idf.csv')
+    # ------------------------------------------------------
