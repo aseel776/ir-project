@@ -3,7 +3,7 @@ import os
 from collections import defaultdict
 from pandas import DataFrame
 from nltk.tokenize import word_tokenize
-from utils.storing import store_dict, store_df
+from utils.storing import store_dict, store_df, store_matrix
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 class Indexing():
@@ -106,4 +106,5 @@ class Indexing():
             columns = vectorizer.get_feature_names_out()
             )
         store_df(df, f'{self.directory}/tf_idf-scikit.csv')
+        store_matrix(tfidf_matrix, f'{self.directory}/tf_idf-scikit.pkl')
     # ------------------------------------------------------
