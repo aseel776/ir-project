@@ -1,5 +1,6 @@
 import json
 import pickle
+import scipy.sparse as sp
 from pandas import DataFrame
 
 def store_dict(data, filename):
@@ -9,6 +10,9 @@ def store_dict(data, filename):
 def store_df(df: DataFrame, filename):
   df.to_csv(filename, index=True)
 
-def store_matrix(matrix, filename):
+def store_matrix_pkl(matrix, filename):
   with open(filename, 'wb') as f:
     pickle.dump(matrix, f)
+
+def store_matrix_npz(matrix, filename):
+  sp.save_npz(filename, matrix)
