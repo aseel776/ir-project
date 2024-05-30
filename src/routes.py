@@ -11,7 +11,8 @@ router = APIRouter()
 async def preprocess_endpoint(body: dict = Body()):
     print('preprocess endpoint')
     corpus = body.get('corpus')
-    processor = PreProcessor(corpus)
+    directory = body.get('directory')
+    processor = PreProcessor(corpus, directory)
     processed_corpus = processor.start()
     return {'processed_corpus' : processed_corpus}
 
