@@ -3,7 +3,7 @@ import os
 from collections import defaultdict
 from pandas import DataFrame
 from nltk.tokenize import word_tokenize
-from utils.storing import store_dict, store_df, store_matrix
+from utils.storing import store_dict, store_df, store_matrix_npz
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 class Indexing():
@@ -15,12 +15,12 @@ class Indexing():
             os.makedirs(directory)
     # ------------------------------------------------------
     def create_index(self):
-        self.calc_all_tfs()
+        # self.calc_all_tfs()
 
         inverted_index = self.create_inverted_index()
-        idf = self.calc_idf(inverted_index)
+        # idf = self.calc_idf(inverted_index)
 
-        self.calc_all_tfidfs(idf)
+        # self.calc_all_tfidfs(idf)
         self.calc_scikit_tfidfs()
     # ------------------------------------------------------
     def calc_all_tfs(self):    
@@ -100,11 +100,6 @@ class Indexing():
         vectorizer = TfidfVectorizer()
         tfidf_matrix = vectorizer.fit_transform(docs)
 
-        df = DataFrame(
-            tfidf_matrix.toarray(), 
-            index = ids,
-            columns = vectorizer.get_feature_names_out()
-            )
-        store_df(df, f'{self.directory}/tf_idf-scikit.csv')
-        store_matrix(tfidf_matrix, f'{self.directory}/tf_idf-scikit.pkl')
+        # store_matrix_pkl(tfidf_matrix, f'{self.directory}/tf_idf-scikit.pkl')
+        store_matrix_npz(tfidf_matrix, f'{self.directory}/tf_idf-scikit.npz')
     # ------------------------------------------------------
