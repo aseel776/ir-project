@@ -1,6 +1,6 @@
 from fastapi import Body, APIRouter
 from services.preprocessing import PreProcessor
-from services.text_processing import TextProcessor
+from services.text_processing import process_text
 from services.indexing import Indexing
 from services.matching import matach, rank
 import endpoints
@@ -10,27 +10,26 @@ router = APIRouter()
 @router.post(endpoints.PRE_PROCESSING)
 async def preprocess_endpoint(body: dict = Body()):
     print('preprocess endpoint')
-    corpus = body.get('corpus')
-    directory = body.get('directory')
-    processor = PreProcessor(corpus, directory)
-    processed_corpus = processor.start()
-    return {'processed_corpus' : processed_corpus}
+    dataset_id = body.get('dataset_id')
+    output_dir = body.get('output_dir')
+    processor = PreProcessor(dataset_id, output_dir)
+    structured_corpus = processor.start()
+    return {'structured_corpus': structured_corpus}
 
 @router.post(endpoints.TEXT_PROCESSING)
 async def text_processing_endpoint(body: dict = Body()):
     print('tp endpoint')
     data = body.get('text')
-    processor = TextProcessor()
-    processed_text = processor.process(text= data)
+    processed_text = process_text(text= data)
     return {'processed_text': processed_text}
 
 @router.post(endpoints.INDEXING)
 async def indexing_endpoint(body: dict = Body()):
     print('indexing endpoint')
     corpus = body.get('corpus')
-    directory = body.get('directory')
-    indexing = Indexing(corpus, directory)
-    indexing.create_index()
+    output_dir = body.get('output_dir')
+    indexing = Indexing(corpus, output_dir)
+    indexing.start()
 
 @router.post(endpoints.MATCHING)
 async def matching_endpoint():

@@ -1,25 +1,25 @@
 import os
-from utils.storing import store_dict
-from services.text_processing import TextProcessor
 
 class PreProcessor:
     
-    def __init__(self, corpus: list[dict], directory: str):
-        self.corpus = corpus.copy()
-        self.directory = directory
-        if not os.path.exists(directory):
-            os.makedirs(directory)
+    def __init__(self, dataset_id: int, output_dir: str):
+        self.dataset_id = dataset_id
+        self.output_dir = output_dir
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
 
     def start(self):
-        processed_corpus = []
-        text_processor = TextProcessor()
+        structured_corpus = []
+        
+        if self.dataset_id == 1:
+            print('structuring dataset 1..')
+            import ds1_prep
+            structured_corpus = ds1_prep.start()
+            
+        else:
+            print('structuring dataset 2..')
+            import ds2_prep
+            structured_corpus = ds2_prep.start()
 
-        for doc in self.corpus:
-            processed_text = text_processor.process(doc['text'])
-            processed_doc = {
-                'id': doc['id'],
-                'text': processed_text
-            }
-            processed_corpus.append(processed_doc)
-        store_dict(processed_corpus, f'{self.directory}/processed_corpus.json')
-        return processed_corpus
+        return structured_corpus
+
