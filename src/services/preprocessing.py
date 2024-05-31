@@ -1,25 +1,31 @@
 import os
+from core.endpoints import PRE_PROCESSING_EP
+from fastapi import FastAPI, Body
 
-class PreProcessor:
+app = FastAPI()
+
+@app.post(PRE_PROCESSING_EP)
+async def start(body: dict = Body()):
+    print('New request to preprocessing service !!')
     
-    def __init__(self, dataset_id: int, output_dir: str):
-        self.dataset_id = dataset_id
-        self.output_dir = output_dir
-        if not os.path.exists(output_dir):
+    # get params
+    dataset_id = body.get('dataset_id')
+    output_dir = body.get('output_dir')
+
+    # check if output dir does not exist, make one
+    if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
-    def start(self):
-        structured_corpus = []
+    # structure dataset
+    structured_corpus = []
         
-        if self.dataset_id == 1:
-            print('structuring dataset 1..')
-            import ds1_prep
-            structured_corpus = ds1_prep.start()
-            
-        else:
-            print('structuring dataset 2..')
-            import ds2_prep
-            structured_corpus = ds2_prep.start()
+    if dataset_id == 1:        
+        import ds1_prep
+        structured_corpus = ds1_prep.start()
+        
+    else:
+        import ds2_prep
+        structured_corpus = ds2_prep.start()
 
-        return structured_corpus
+    return {'structured_corpus': structured_corpus}
 

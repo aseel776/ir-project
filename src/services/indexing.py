@@ -1,19 +1,26 @@
+from core.endpoints import INDEXING_EP
 from services.text_processing import process_text, tokenize
 from utils.storing import store_pkl, store_npz
+from fastapi import FastAPI, Body
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-class Indexing:
+app = FastAPI()
 
-    def __init__(self, corpus: list[dict], output_dir: str):
-        self.corpus = corpus.copy()
-        self.output_dir = output_dir
+@app.post(INDEXING_EP)
+async def start(body: dict = Body()):
+    print('New request to indexing service !!')
+    
+    # get params
+    corpus = body.get('corpus')
+    output_dir = body.get('output_dir')
 
-    def start(self):
-        docs = [item['text'] for item in self.corpus]
+    # get docs from corpus
+    docs = [item['text'] for item in corpus]
 
-        vectorizer = TfidfVectorizer(preprocessor= process_text, tokenizer= tokenize, token_pattern=None)
-        tfidf_matrix = vectorizer.fit_transform(docs)
-        
-        store_pkl(vectorizer, f'{self.output_dir}/vectorizer.pkl')
-        store_npz(tfidf_matrix, f'{self.output_dir}/tf_idf-scikit.npz')
-        
+    # create index
+    vectorizer = TfidfVectorizer(preprocessor= process_text, tokenizer= tokenize, token_pattern=None)
+    tfidf_matrix = vectorizer.fit_transform(docs)
+    
+    # store matrix and model
+    store_pkl(vectorizer, f'{output_dir}/vectorizer.pkl')
+    store_npz(tfidf_matrix, f'{output_dir}/tf_idf-scikit.npz')

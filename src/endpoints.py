@@ -1,5 +1,0 @@
-PRE_PROCESSING = '/pre-processing'
-TEXT_PROCESSING = '/text-processing'
-INDEXING = '/indexing'
-MATCHING = '/matching'
-RANKING = '/ranking'

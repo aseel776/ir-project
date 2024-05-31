@@ -4,6 +4,22 @@ from nltk.stem import LancasterStemmer, WordNetLemmatizer
 from nltk import pos_tag
 from string import punctuation
 from utils.converting import convert_to_str
+from fastapi import FastAPI, Body
+from core.endpoints import TEXT_PROCESSING_EP
+
+app = FastAPI()
+
+@app.post(TEXT_PROCESSING_EP)
+async def start(body: dict = Body()):
+    print('New request to text_processing service !!')
+    
+    # get text
+    text = body.get('text')
+
+    # process
+    processed_text = process_text(text)
+
+    return {'processed_text': processed_text}
 
 def process_text(text: str):
     # first tolower

@@ -3,7 +3,9 @@ from utils.loading import load_df
 
 def start():
 
-    dataset_path = os.path.join('..', 'Datasets', 'wikIR1k')
+    # two (..)'s due to 'cwd=os.path.dirname(os.path.abspath(__file__))' in main file
+    # which runs servers from project/src
+    dataset_path = os.path.join('..', '..', 'Datasets', 'wikIR1k')
 
     docs_path = os.path.join(dataset_path, 'documents.csv')
     
