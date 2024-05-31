@@ -3,7 +3,7 @@ import core.base_urls as urls
 
 # ------------------- PreProcessing 1st Dataset -------------------
 
-output_dir = 'res/ds1'
+output_dir = '../res/ds1'
 
 request_body = {
     'dataset_id': 1,
