@@ -29,7 +29,7 @@ async def start(body: dict = Body()):
     search_text = body.get('search_text')
 
     # set input dir based on dataset id
-    input_dir = f'../result/ds{dataset_id}'
+    input_dir = f'../res/ds{dataset_id}'
 
     request_body = {
         'input_dir': input_dir,
@@ -46,6 +46,7 @@ async def start(body: dict = Body()):
 
         request_body = {
             'input_dir': input_dir,
+            'dataset_id': dataset_id,
             'processed_query': processed_query
         }
 
@@ -53,7 +54,8 @@ async def start(body: dict = Body()):
         response = requests.post(MATCHING_URL, json = request_body)
 
         if response.status_code == 200:
-            return {'data': 'Search completed!'}
+            data = response.json()['similar_docs']
+            return {'data': data}
         else:
             return {'error': 'Something went wrong during matching!'}
 
