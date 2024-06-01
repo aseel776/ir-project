@@ -1,5 +1,6 @@
 import os
 from utils.loading import load_df
+from database.store_docs import store_docs_in_dataset2
 
 def start():
 
@@ -21,5 +22,7 @@ def start():
             'text': row['text_right'],
         }
         structured_corpus.append(entry)
+
+    store_docs_in_dataset2(structured_corpus)
 
     return structured_corpus

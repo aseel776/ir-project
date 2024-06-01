@@ -12,28 +12,23 @@ try:
     if conn.is_connected():
         cur = conn.cursor()
 
-        cur.execute('DROP TABLE dataset1')
-        cur.execute('DROP TABLE dataset2')
-
-        # Create table dataset1
         cur.execute(
             '''
             CREATE TABLE IF NOT EXISTS dataset1 (
                 id INT PRIMARY KEY,
                 doc_id INTEGER NOT NULL,
                 title TEXT NOT NULL,
-                text TEXT NOT NULL
+                text LONGTEXT NOT NULL
             )
             '''
         )
 
-        # Create table dataset2
         cur.execute(
             '''
             CREATE TABLE IF NOT EXISTS dataset2 (
                 id INT PRIMARY KEY,
                 doc_id INTEGER NOT NULL,
-                text TEXT NOT NULL
+                text LONGTEXT NOT NULL
             )
             '''
         )
