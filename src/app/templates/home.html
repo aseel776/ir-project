@@ -28,60 +28,100 @@
         </div>
     </div>
   
-  <script>
-
-    let dataset_id = 1
-    let search_url = 'http://localhost:8006/searching'
-    
-    // -------------------- DropDown Functionality --------------------
-
-    const dropdownButton = document.getElementById('datasetDropdown');
-    const dropdownMenu = dropdownButton.nextElementSibling;
+    <div id="loadingPopup" class="loading-popup">
+      <div class="loading-popup-content">
+        <div class="spinner-border text-light" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="text-light mt-3">Loading...</p>
+      </div>
+    </div>
   
-    dropdownButton.addEventListener('click', function() {
-        dropdownMenu.classList.toggle('show');
-    });
-  
-    const dropdownItems = dropdownMenu.querySelectorAll('a.dropdown-item');
-  
-    dropdownItems.forEach(item => {
-        item.addEventListener('click', function(event) {
-            //event.preventDefault();
-            dropdownButton.textContent = event.target.textContent.trim();
-            const selectedValue = parseInt(event.target.dataset.datasetId);
-            dataset_id = selectedValue
-            dropdownMenu.classList.remove('show');
-        });
-    });
+    <style>
+      .loading-popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(5px);
+        z-index: 1050;
+        justify-content: center;
+        align-items: center;
+      }
+      .loading-popup-content {
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 10px;
+        text-align: center;
+      }
+    </style>
 
-    // -------------------- Search Functionality --------------------
+    <script>
 
-    const searchForm = document.getElementById('searchForm');
-    const searchTextInput = document.getElementById('searchText');
+      let dataset_id = 1;
+      let search_url = 'http://localhost:8006/searching';
 
-    searchForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const search_text = searchTextInput.value.trim();        
+      // -------------------- DropDown Functionality --------------------
 
-        fetch(search_url, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            
-          },
-          body: JSON.stringify({
-            dataset_id,
-            search_text,
-          })
-        }).then(response => response.json())
-          .then(data => {
-            console.log("Response from service:", data);
-          })
-          .catch(error => {
-            console.error("Error sending request:", error);
+      const dropdownButton = document.getElementById('datasetDropdown');
+      const dropdownMenu = dropdownButton.nextElementSibling;
+
+      dropdownButton.addEventListener('click', function() {
+          dropdownMenu.classList.toggle('show');
+      });
+
+      const dropdownItems = dropdownMenu.querySelectorAll('a.dropdown-item');
+
+      dropdownItems.forEach(item => {
+          item.addEventListener('click', function(event) {
+              dropdownButton.textContent = event.target.textContent.trim();
+              const selectedValue = parseInt(event.target.dataset.datasetId);
+              dataset_id = selectedValue;
+              dropdownMenu.classList.remove('show');
           });
-        });
-        
+      });
+
+      // -------------------- Search Functionality --------------------
+
+      const searchForm = document.getElementById('searchForm');
+      const searchTextInput = document.getElementById('searchText');
+      const loadingPopup = document.getElementById('loadingPopup');
+
+      searchForm.addEventListener('submit', function(event) {
+          event.preventDefault();
+          const search_text = searchTextInput.value.trim();        
+          
+          loadingPopup.style.display = 'flex';
+
+          fetch(search_url, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              dataset_id,
+              search_text,
+            })
+          }).then(response => response.json())
+            .then(data => {
+              console.log("Response from service:", data);              
+              hideLoadingPopup();
+              window.sessionStorage.setItem('data', JSON.stringify(data))
+              window.location.href = '/results';
+            })
+            .catch(error => {
+              console.error("Error sending request:", error);
+              hideLoadingPopup();
+            });
+      });
+
+      function hideLoadingPopup() {
+        loadingPopup.style.display = 'none';
+      }
+      
     </script>
 
 {% endblock %}

@@ -9,9 +9,3 @@ QUERY_PROCESSING_EP = '/query-processing'
 MATCHING_EP = '/matching'
 
 SEARCHING = '/searching'
-
-# ------------------- App Routes -------------------
-
-HOME = '/'
-
-SEARCH = '/search'

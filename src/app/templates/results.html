@@ -1,0 +1,22 @@
+{% extends "base.html" %} 
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mt-5">Results</h1>
+    <div id="resultsData"></div>
+</div>
+
+<script>
+    const data = window.sessionStorage.getItem('data');
+    console.log(data)
+    if (data) {
+        const parsedData = JSON.parse(data);
+        const resultsDataDiv = document.getElementById('resultsData');
+        resultsDataDiv.textContent = parsedData.message;
+    }
+</script>
+{% endblock %}
