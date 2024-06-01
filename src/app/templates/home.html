@@ -1,0 +1,87 @@
+{% extends "base.html" %} 
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+
+    <div class="container-fluid bg-dark">
+        <div class="row justify-content-center align-items-center min-vh-100">
+          <div class="col-md-6">
+            <form class="d-flex flex-column align-items-center" id="searchForm">
+              <div class="d-flex mb-3">
+                <input class="form-control me-2" type="search" id="searchText" style="width: 500px;" placeholder="Search" aria-label="Search">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="datasetDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dataset 1
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="datasetDropdown">
+                    <li><a class="dropdown-item" href="#" data-dataset-id="1">Dataset 1</a></li>
+                    <li><a class="dropdown-item" href="#" data-dataset-id="2">Dataset 2</a></li>
+                  </ul>
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </div>
+  
+  <script>
+
+    let dataset_id = 1
+    let search_url = 'http://localhost:8006/searching'
+    
+    // -------------------- DropDown Functionality --------------------
+
+    const dropdownButton = document.getElementById('datasetDropdown');
+    const dropdownMenu = dropdownButton.nextElementSibling;
+  
+    dropdownButton.addEventListener('click', function() {
+        dropdownMenu.classList.toggle('show');
+    });
+  
+    const dropdownItems = dropdownMenu.querySelectorAll('a.dropdown-item');
+  
+    dropdownItems.forEach(item => {
+        item.addEventListener('click', function(event) {
+            //event.preventDefault();
+            dropdownButton.textContent = event.target.textContent.trim();
+            const selectedValue = parseInt(event.target.dataset.datasetId);
+            dataset_id = selectedValue
+            dropdownMenu.classList.remove('show');
+        });
+    });
+
+    // -------------------- Search Functionality --------------------
+
+    const searchForm = document.getElementById('searchForm');
+    const searchTextInput = document.getElementById('searchText');
+
+    searchForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const search_text = searchTextInput.value.trim();        
+
+        fetch(search_url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            
+          },
+          body: JSON.stringify({
+            dataset_id,
+            search_text,
+          })
+        }).then(response => response.json())
+          .then(data => {
+            console.log("Response from service:", data);
+          })
+          .catch(error => {
+            console.error("Error sending request:", error);
+          });
+        });
+        
+    </script>
+
+{% endblock %}
