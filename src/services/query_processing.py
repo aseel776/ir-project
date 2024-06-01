@@ -16,6 +16,14 @@ async def start(body: dict = Body()):
     vectorizer = load_pkl(f'{input_dir}/vectorizer.pkl')
 
     # process
-    processed_query = vectorizer.fit([query])
+    processed_query = vectorizer.transform([query])
+
+    print('------------ query processed ------------')
+    print(processed_query)
+
+    # transform it into serializable object
+    processed_query_dense = processed_query.toarray().tolist()
+
+    print('------------ query transformed ------------')
     
-    return {'processed_query': processed_query}
+    return {'processed_query': processed_query_dense}
