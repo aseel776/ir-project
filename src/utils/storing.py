@@ -3,7 +3,7 @@ import pickle
 import scipy.sparse as sp
 from pandas import DataFrame
 
-def store_dict(data, filename):
+def store_json(data, filename):
   with open(filename, 'w') as f:
     json.dump(data, f, indent=4) 
 

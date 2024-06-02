@@ -3,7 +3,7 @@ import pickle
 import scipy.sparse as sp
 from pandas import read_csv
 
-def load_dict(filename):
+def load_json(filename):
   with open(filename, 'r') as f:
     return json.load(f)
 
