@@ -33,6 +33,27 @@ try:
             '''
         )
 
+        cur.execute(
+            '''
+            CREATE TABLE IF NOT EXISTS dataset3 (
+                id INT PRIMARY KEY,
+                doc_id INTEGER NOT NULL,
+                title TEXT NOT NULL,
+                text LONGTEXT NOT NULL
+            )
+            '''
+        )
+
+        cur.execute(
+            '''
+            CREATE TABLE IF NOT EXISTS dataset4 (
+                id INT PRIMARY KEY,
+                doc_id INTEGER NOT NULL,
+                text LONGTEXT NOT NULL
+            )
+            '''
+        )
+
         conn.commit()
 
 except Error as e:

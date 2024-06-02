@@ -23,9 +23,16 @@ async def start(body: dict = Body()):
         import ds1_prep
         structured_corpus = ds1_prep.start()
         
-    else:
+    elif dataset_id == 2:
         import ds2_prep
         structured_corpus = ds2_prep.start()
 
-    return {'structured_corpus': structured_corpus}
+    elif dataset_id == 3:
+        import ds3_prep
+        structured_corpus = ds3_prep.start()
 
+    else:
+         import ds4_prep
+         structured_corpus = ds4_prep.start()
+
+    return {'structured_corpus': structured_corpus}
