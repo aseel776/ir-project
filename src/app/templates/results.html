@@ -1,4 +1,4 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
 
 {% block title %}
     Results
@@ -7,16 +7,34 @@
 {% block content %}
 <div class="container">
     <h1 class="mt-5">Results</h1>
-    <div id="resultsData"></div>
+    <div id="resultsContainer" style="padding: 10px;"></div>
 </div>
 
 <script>
-    const data = window.sessionStorage.getItem('data');
-    console.log(data)
-    if (data) {
-        const parsedData = JSON.parse(data);
-        const resultsDataDiv = document.getElementById('resultsData');
-        resultsDataDiv.textContent = parsedData.message;
+    const storedData = window.sessionStorage.getItem('data');
+    console.log(storedData);
+    try {
+        const parsedData = JSON.parse(storedData);
+        if (parsedData && Array.isArray(parsedData.data)) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            parsedData.data.forEach(item => {
+                const textBox = document.createElement('div');
+                textBox.textContent = item.text;
+                textBox.style.marginBottom = '20px'; // Add spacing between boxes
+                textBox.style.padding = '10px';
+                textBox.style.border = '1px solid #ccc';
+                textBox.style.borderRadius = '5px';
+                textBox.style.whiteSpace = 'pre-wrap'; // Preserve formatting
+                textBox.style.overflowY = 'auto';
+                textBox.style.maxHeight = '200px'; // Limit box height to enable scrolling for long texts
+
+                resultsContainer.appendChild(textBox);
+            });
+        } else {
+            console.error('Parsed data is not an array:', parsedData);
+        }
+    } catch (e) {
+        console.error('Failed to parse data:', e);
     }
 </script>
 {% endblock %}
