@@ -1,4 +1,4 @@
-import datasets
+import core.datasets as datasets
 from database.store_docs import store_docs_in_dataset1
 
 def start():
