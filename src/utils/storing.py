@@ -1,6 +1,7 @@
 import json
 import pickle
 import scipy.sparse as sp
+import numpy as np
 from pandas import DataFrame
 
 def store_json(data, filename):
@@ -16,3 +17,6 @@ def store_pkl(data, filename):
 
 def store_npz(data, filename):
   sp.save_npz(filename, data)
+
+def store_npy(data, filename):
+  np.save(filename, data)

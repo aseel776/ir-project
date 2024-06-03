@@ -1,6 +1,7 @@
 import json
 import pickle
 import scipy.sparse as sp
+import numpy as np
 from pandas import read_csv
 
 def load_json(filename):
@@ -17,3 +18,6 @@ def load_pkl(filename):
     
 def load_npz(filename):
   return sp.load_npz(filename)
+
+def load_npy(filename):
+   return np.load(filename)
