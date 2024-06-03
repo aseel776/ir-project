@@ -34,3 +34,6 @@ def start():
     except KeyboardInterrupt:
         for proc in processes:
             proc.terminate()
+
+if __name__ == '__main__':
+    start()
