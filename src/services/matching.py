@@ -1,7 +1,7 @@
 import numpy as np
 import database.load_docs as ld
 from core.endpoints import MATCHING_EP
-from utils.loading import load_npz
+from utils.loading import load_npz, load_pkl
 from fastapi import FastAPI, Body
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -15,22 +15,32 @@ async def start(body: dict = Body()):
     input_dir = body.get('input_dir')
     dataset_id = body.get('dataset_id')
     processed_query_dense = body.get('processed_query')
+    cluster_label = body.get('cluster_label')
 
     print('------------ query recieved ------------')
 
     # transform it back
-    processed_query = np.array(processed_query_dense)
+    comined_processed = np.array(processed_query_dense)
 
     print('------------ query transformed back ------------')
-    print(processed_query)
+    print(comined_processed)
 
     # load matrix
     matrix = load_npz(f'{input_dir}/tf_idf-scikit.npz')
+    # load kmeans
+    kmeans = load_pkl(f'{input_dir}/kmeans.pkl')
 
-    print('------------ matrix loaded ------------')
+    print('------------ matrix and model loaded ------------')
+
+    # Filter documents based on cluster label
+    cluster_docs_indices = np.where(kmeans.labels_ == cluster_label)[0]
+    cluster_docs_indices = cluster_docs_indices[:100]
+
+    print('------------ cluster indices ------------')
+    print(cluster_docs_indices)
 
     # measure
-    similarities = cosine_similarity(processed_query, matrix).flatten()
+    similarities = cosine_similarity(comined_processed, matrix[cluster_docs_indices]).flatten()
 
     print('------------ similarities calculated ------------')
     print(similarities)

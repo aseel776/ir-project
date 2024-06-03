@@ -43,11 +43,13 @@ async def start(body: dict = Body()):
         # get processed query
         data = response.json()
         processed_query = data['processed_query']
+        cluster_label = data['cluster_label']
 
         request_body = {
             'input_dir': input_dir,
             'dataset_id': dataset_id,
-            'processed_query': processed_query
+            'processed_query': processed_query,
+            'cluster_label': cluster_label,
         }
 
         # get relevent docs

@@ -26,7 +26,6 @@ def process_text(text: str):
     text = text.lower()
     # then remove punctuations & numbers
     text = remove_punctuation(text)
-    text = remove_numbers(text)
     # tokenize
     tokens = tokenize(text)
     # remove stop words from tokens
