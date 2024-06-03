@@ -1,6 +1,7 @@
 from core.endpoints import QUERY_PROCESSING_EP
 from utils.loading import load_pkl
 from fastapi import FastAPI, Body
+from transformers import BertModel, BertTokenizer
 import numpy as np
 import torch
 
@@ -20,10 +21,16 @@ async def start(body: dict = Body()):
 
     # process
     processed_query_tfidf = vectorizer.transform([query])
-    processed_query_bert = get_bert_embedding(query)
 
-    combined = np.hstack((processed_query_bert, processed_query_tfidf.toarray()))
+    model_name = 'bert-base-uncased'
+    tokenizer = BertTokenizer.from_pretrained(model_name)
+    model = BertModel.from_pretrained(model_name)
+    encoded_query = tokenizer(query, padding=True, truncation=True, return_tensors='pt')
+    processed_query_bert = get_bert_embedding(encoded_query, model)
 
+    processed_query_tfidf_reshaped = processed_query_tfidf.toarray()
+    processed_query_bert_reshaped = processed_query_bert.reshape(1, -1)
+    combined = np.hstack((processed_query_bert_reshaped, processed_query_tfidf_reshaped))
 
     # get cluster label
     cluster_label = kmeans.predict(combined)
