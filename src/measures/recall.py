@@ -10,3 +10,8 @@ def get_recall(retrieved_ids, relevant_ids):
     recall = len(relevant_and_retrieved) / len(relevant_ids)
     
     return recall
+
+def get_avg_recall(recalls: list):
+    if not recalls:
+        return 0.0
+    return sum(recalls) / len(recalls)

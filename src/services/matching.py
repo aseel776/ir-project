@@ -45,7 +45,7 @@ async def start(body: dict = Body()):
     # fetch docs based from db on their indices
     docs = ld.load_docs(indices_list, dataset_id)
     print('------------ docs fetched ------------')
-    for doc in docs:
-        print(doc['doc_id'])
+    # for doc in docs:
+    #     print(doc['doc_id'])
 
     return {'similar_docs': docs}
